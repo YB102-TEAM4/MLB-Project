@@ -23,16 +23,16 @@ record = soup.select('#div_active #active tbody tr')
 mat = []
 i = 0
 for row in record:
-    mat.append([])
-    if 'no_mobile' not in row['class']:
+    mat.append([])                         #在陣列中加入另一個陣列，變成2維陣列
+    if 'no_mobile' not in row['class']:    #如果元素的class名稱中沒有'no_mobile'則選取
         table = row.select('td')
         for stamp in table[0:22]:
             mat[i].append(stamp.text)
-        i = i + 1
+        i = i + 1                          #跳入陣列中的下一個列
 print mat
 
 for rock in range(len(mat)):
-    b= []
+    b = []
     for x in mat[rock][0:22]:
         b.append(x.encode('utf-8'))
     w.writerow(b)
