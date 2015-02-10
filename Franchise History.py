@@ -23,7 +23,7 @@ bid = soup.select('#div_franchise_years tbody tr')
 
 mat2 = []
 i = 0
-for year in bid[0:16]:
+for year in bid[0:17]:
     mat2.append([])
     record = year.select('td')
     for x in record[0:21]:
