@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 
 url = "http://www.baseball-reference.com/teams/ARI/"
 
-f = open("ARI_hisory.csv","wb")
+f = open("ARI_history.csv","wb")
 
 response = requests.get(url)
 soup = BeautifulSoup(response.text.replace('&nbsp;', ' ')) #在soup之前把原始碼中的"&nbsp;"改成空格" ",不然最後"&nbsp;會經由soup轉成\xa0,"而再存入csv檔中後,會變成亂碼
