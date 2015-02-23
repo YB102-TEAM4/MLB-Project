@@ -2,7 +2,7 @@
 #所有打者的生涯成績 爬蟲
 #從這個網站的球員姓名 http://www.baseballprospectus.com/sortable/index.php?cid=1754666
 #抓這個網站資料 http://www.baseballprospectus.com/card/card.php?id=BONDS19640724A
-import string, time, requests, os
+import string, time, requests, os#, codecs
 from bs4 import BeautifulSoup
 
 ###########################################################
@@ -22,7 +22,11 @@ def findRealURL(url,G):#G為生涯總出場數
                 urlReal=urlRepeat.select('a')[0]['href']
                 res=requests.get(urlReal,headers=headers)
                 soup=BeautifulSoup(res.text.encode('utf-8'))
-                if G==soup.select('table#stats_card_standard_datagrid tfoot th')[1].text.encode('utf8'):#兩網站的生涯出場數一樣
+                tfoot=[]
+                tfoot=soup.select('table#stats_card_standard_datagrid tfoot th')
+                if len(tfoot)==0:
+                    continue
+                elif G==tfoot[1].text.encode('utf8'):#兩網站的生涯出場數一樣
                     return urlReal #就代表同一個人
         return #若都找不到 就return None
 
@@ -61,44 +65,37 @@ soup=BeautifulSoup(res.text.encode('utf-8'))
 
 substr='http://www.baseballprospectus.com/player_search.php?search_name='
 trList=soup.select('#TTdata tr')[1:]
-count=0
+
 for tr in trList:
     #第一步 找出姓名, 網址, 總出賽數
-    name = tr.select('td')[2].text.encode('utf8')#姓名
-    url = substr+name.replace(' ','+').encode('utf8')#網址
+    serial = tr.select('td')[0].text.encode('utf8')#編號
+    name = tr.select('td')[2].text.strip().encode('utf8')#姓名
+    url = substr+name.replace(' ','+')#網址
     G = tr.select('td')[3].text.replace(',','').encode('utf8')#總出賽數
     
     #第二步 findRealURL(網址,出賽數)
     urlReal = findRealURL(url,G)
-    if urlReal==None:#將沒爬到的網站寫進 urlError.txt
-        fod=open('urlError.txt','w')
-        fod.write('')
-        fod.close()
-        fod=open('urlError.txt','a')
+    if urlReal==None:#將沒爬到的網站寫進 urlError.txt        
+        fod=open('urlBatterError.txt','a')
         fod.write(url+'\n')
         fod.close()
+        del serial, name, url, G, urlReal#記憶體控管
+        time.sleep(1)#睡1秒
+        continue
 
-    #第三步 playerCrawler()
+    #第三步 playerCrawler()    
     try:
         playerCrawler(urlReal)#爬蟲
+        print str(serial)+' '+ name #印爬蟲的進度
     except:
-        print str(count)+' '+name+' error'#印爬蟲的進度
-        fod=open('urlError.txt','w')
-        fod.write('')
+        print str(serial)+' error' #印爬蟲的進度
+        fod=open('urlBatterError.txt','a')#將有問題網址寫入檔案
+        fod.write(url+'\n')#.decode('utf8')
         fod.close()
-        fod=open('urlError.txt','a')
-        fod.write(url+'\n')
-        fod.close()
-        continue
-        
+    finally:
     #第四步 善後
-    count+=1
-    print str(count)+' '+name#印爬蟲的進度
-    del(name)#記憶體控管
-    del(url)
-    del(G)
-    del(urlReal)
-    time.sleep(1)
+        del serial, name, url, G, urlReal#記憶體控管
+        time.sleep(1)#睡1秒
 
 del(trList)
 
