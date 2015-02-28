@@ -11,7 +11,7 @@ from bs4 import BeautifulSoup
 reload(sys)
 sys.setdefaultencoding("utf-8")
 
-teamNameList = ['ARI', 'ATL', 'BAL', 'BOS', 'CHC', 'CHW', 'CIN', 'CLE', 'COL', 'ANA', 'DET', 'FLA', 'HOU', 'KCR' \
+teamNameList = ['ARI', 'ATL', 'BAL', 'BOS', 'CHC', 'CHW', 'CIN', 'CLE', 'COL', 'LAA', 'DET', 'FLA', 'HOU', 'KCR' \
            , 'LAD', 'MIL', 'MIN', 'NYM', 'NYY', 'OAK', 'PHI', 'PIT', 'SDP', 'SEA', 'SFG', 'STL', 'TBD', 'TEX' \
            , 'TOR', 'WSN']#隊名
 
