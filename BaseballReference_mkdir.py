@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import os
-teamNameList = ['ARI', 'ATL', 'BAL', 'BOS', 'CHC', 'CHW', 'CIN', 'CLE', 'COL', 'ANA', 'DET', 'FLA', 'HOU', 'KCR' \
+teamNameList = ['ARI', 'ATL', 'BAL', 'BOS', 'CHC', 'CHW', 'CIN', 'CLE', 'COL', 'LAA', 'DET', 'FLA', 'HOU', 'KCR' \
            , 'LAD', 'MIL', 'MIN', 'NYM', 'NYY', 'OAK', 'PHI', 'PIT', 'SDP', 'SEA', 'SFG', 'STL', 'TBD', 'TEX' \
            , 'TOR', 'WSN']#隊名
 battingSplitsFileNameList = ['season_totals', 'platoon_splits', 'home_or_away', 'first_or_second_half', 'months', 'game_outcome_for_team', \
@@ -21,11 +21,12 @@ pitchingSplitsFileNameList = ['season_totals', 'season_totals_extra', 'platoon_s
                    'game_conditions', 'game_conditions_extra', 'ballparks', 'ballparks_extra', 'ballpark_platoon_splits',\
                    'by_catcher', 'by_umpire', 'by_umpire_extra']#pitching splits folder
 
-for teamName in teamNameList:
-    if not os.path.exists(teamName):
-        os.mkdir(teamName)
-    if not os.path.exists(teamName+'\\batting_splits'):
-        os.mkdir(teamName+'\\batting_splits')
+#建立資料夾
+for teamName in teamNameList:  #從teamNameList中依序取出隊名
+    if not os.path.exists(teamName):   #以相對路徑來看，若目前位置沒有存在此隊名名稱的資料夾
+        os.mkdir(teamName)             #則建立一個此隊名名稱的資料夾
+    if not os.path.exists(teamName+'\\batting_splits'):   #若在此隊名名稱資料夾內沒有存在batting_splits資料夾
+        os.mkdir(teamName+'\\batting_splits')             #則建立一個batting_splits資料夾於此隊名名稱資料夾中
     if not os.path.exists(teamName+'\\pitching_splits'):
         os.mkdir(teamName+'\\pitching_splits')    
     for endFileName in battingSplitsFileNameList:

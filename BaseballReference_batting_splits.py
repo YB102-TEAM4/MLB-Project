@@ -3,7 +3,7 @@
 #os.mkdir
 import requests, os
 from bs4 import BeautifulSoup
-teamNameList = ['ARI', 'ATL', 'BAL', 'BOS', 'CHC', 'CHW', 'CIN', 'CLE', 'COL', 'ANA', 'DET', 'FLA', 'HOU', 'KCR' \
+teamNameList = ['ARI', 'ATL', 'BAL', 'BOS', 'CHC', 'CHW', 'CIN', 'CLE', 'COL', 'LAA', 'DET', 'FLA', 'HOU', 'KCR' \
            , 'LAD', 'MIL', 'MIN', 'NYM', 'NYY', 'OAK', 'PHI', 'PIT', 'SDP', 'SEA', 'SFG', 'STL', 'TBD', 'TEX' \
            , 'TOR', 'WSN']#隊名
 
