@@ -21,6 +21,17 @@ pitchingSplitsFileNameList = ['season_totals', 'season_totals_extra', 'platoon_s
                    'game_conditions', 'game_conditions_extra', 'ballparks', 'ballparks_extra', 'ballpark_platoon_splits',\
                    'by_catcher', 'by_umpire', 'by_umpire_extra']#pitching splits folder
 
+battingDetailedFileNameList = ['team_batting','players_value_batting', 'players_advanced_batting',\
+                               'players_ratio_batting', 'players_win_probability_batting',\
+                               'players_baserunning_batting','players_pitches_batting', \
+                               'players_neutral_batting', 'players_cumulative_batting']#batting detail stats folder
+
+pitchingDetailedFileNameList = ['team_pitching','players_value_pitching', 'players_ratio_pitching',\
+                                'players_batting_pitching', 'players_win_probability_pitching',\
+                                'players_starter_pitching','players_reliever_pitching',\
+                                'players_basesituation_pitching', 'players_pitches_pitching',\
+                                'players_neutral_pitching','players_cumulative_pitching']#pitching detail stats folder
+
 #建立資料夾
 for teamName in teamNameList:  #從teamNameList中依序取出隊名
     if not os.path.exists(teamName):   #以相對路徑來看，若目前位置沒有存在此隊名名稱的資料夾
@@ -28,10 +39,20 @@ for teamName in teamNameList:  #從teamNameList中依序取出隊名
     if not os.path.exists(teamName+'\\batting_splits'):   #若在此隊名名稱資料夾內沒有存在batting_splits資料夾
         os.mkdir(teamName+'\\batting_splits')             #則建立一個batting_splits資料夾於此隊名名稱資料夾中
     if not os.path.exists(teamName+'\\pitching_splits'):
-        os.mkdir(teamName+'\\pitching_splits')    
+        os.mkdir(teamName+'\\pitching_splits')  
+    if not os.path.exists(teamName+'\\batting_detailed_stats'):
+        os.mkdir(teamName+'\\batting_detailed_stats')
+    if not os.path.exists(teamName+'\\pitching_detailed_stats'):
+        os.mkdir(teamName+'\\pitching_detailed_stats')               
     for endFileName in battingSplitsFileNameList:
         if not os.path.exists(teamName+'\\batting_splits\\'+endFileName):
             os.mkdir(teamName+'\\batting_splits\\'+endFileName)
     for endFileName in pitchingSplitsFileNameList:
         if not os.path.exists(teamName+'\\pitching_splits\\'+endFileName):
             os.mkdir(teamName+'\\pitching_splits\\'+endFileName)
+    for endFileName in battingDetailedFileNameList:
+        if not os.path.exists(teamName+'\\batting_detailed_stats\\'+endFileName):
+            os.mkdir(teamName+'\\batting_detailed_stats\\'+endFileName) 
+    for endFileName in pitchingDetailedFileNameList:
+        if not os.path.exists(teamName+'\\pitching_detailed_stats\\'+endFileName):
+            os.mkdir(teamName+'\\pitching_detailed_stats\\'+endFileName)                

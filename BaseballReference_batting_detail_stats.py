@@ -22,7 +22,7 @@ idList = ['#team_batting','#players_value_batting', '#players_advanced_batting',
 endFileNameList = ['Team Batting','Team Player Value--Batters','Team Advanced Batting','Team Batting Ratios','Team Win Probability','Team Baserunning_Misc'\
                     ,'Team Pitches Batting','Team Neutralized Batting','Team Cumulative Batting']#file
 
-battingSplitsFileNameList = ['team_batting','players_value_batting', 'players_advanced_batting', 'players_ratio_batting', 'players_win_probability_batting',
+battingDetailedFileNameList = ['team_batting','players_value_batting', 'players_advanced_batting', 'players_ratio_batting', 'players_win_probability_batting',
                      'players_baserunning_batting','players_pitches_batting', 'players_neutral_batting', 'players_cumulative_batting']#batting detail stats folder
 
 partFileName = '%s_%d_detail_stats_%s.csv'#檔案名稱

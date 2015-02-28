@@ -26,9 +26,9 @@ idList = ['#team_pitching','#players_value_pitching', '#players_ratio_pitching',
 endFileNameList = ['Team Pitching','Team Player Value--Pitchers','Team Pitching Ratios','Team Batting Against','Team Win Probability','Team Starting Pitching'\
                     ,'Team Relief Pitching','Team Baserunning_Situ','Team Pitching Pitches','Team Neutralized Pitching','Team Cumulative Pitching']#file
 
-battingSplitsFileNameList = ['team_pitching','players_value_pitching', 'players_ratio_pitching', 'players_batting_pitching', 'players_win_probability_pitching',\
+pitchingDetailedFileNameList = ['team_pitching','players_value_pitching', 'players_ratio_pitching', 'players_batting_pitching', 'players_win_probability_pitching',\
                      'players_starter_pitching','players_reliever_pitching', 'players_basesituation_pitching', 'players_pitches_pitching',\
-                     'players_neutral_pitching','players_cumulative_pitching']#batting detail stats folder
+                     'players_neutral_pitching','players_cumulative_pitching']#pitching detail stats folder
 
 partFileName = '%s_%d_detail_stats_%s.csv'#檔案名稱
 folder='%s\\pitching_detailed_stats\\%s\\'#資料夾名稱 第一個%s是隊名teamNameList 第二個%s是endFileNameList
