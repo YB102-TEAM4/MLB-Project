@@ -37,10 +37,10 @@ for year in yearList: #先依隊伍名稱和年份做兩次迴圈
             res=requests.get(url%('MIA',year))
         else:
             res=requests.get(url%(teamName,year))#用字串格式化 輸入完整網址
-        soup=BeautifulSoup(res.text.encode('UTF-8'))
+        soup=BeautifulSoup(res.text.replace('&nbsp;',' ').encode('UTF-8'))
         for n in range(0,9):#寫入9種表格 因為idList和endFileNameList是一對一關係 在這層迴圈會同時用這兩個
             thList=soup.select(idList[n]+' thead tr th')#標題
-            fod=open(folder%(teamName,battingSplitsFileNameList[n])+partFileName%(teamName,year,endFileNameList[n]),'wb'.replace('&nbsp;',' '))
+            fod=open(folder%(teamName,battingDetailedFileNameList[n])+partFileName%(teamName,year,endFileNameList[n]),'w')
             #用字串格式化 輸入完整資料夾路徑檔名
 
             for th in thList:

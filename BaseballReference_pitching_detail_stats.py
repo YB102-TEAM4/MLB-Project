@@ -1,9 +1,7 @@
-
 # -*- coding: UTF-8 -*-
 #可能要改的參數 yearList partFileName folder endFileNameList  fod=open(), 尤其folder的batting_splits
 #os.mkdir,csv
-#抓下來的球員名稱有些在中間空格的地方會有問號(ex:Johnny Deman 會變成 Johnny?Deman),這是用eccel本身的編碼問題
-#因為excel預設是ASCI編碼,未來我們在寫入資料庫時只要使用UTF-8寫進去就不會有問題了。
+
 import csv
 import requests, os, sys
 from bs4 import BeautifulSoup
@@ -42,10 +40,10 @@ for year in yearList: #先依隊伍名稱和年份做兩次迴圈
             res=requests.get(url%('MIA',year))
         else:
             res=requests.get(url%(teamName,year))#用字串格式化 輸入完整網址
-        soup=BeautifulSoup(res.text.encode('UTF-8'))
+        soup=BeautifulSoup(res.text.replace('&nbsp;',' ').encode('UTF-8'))
         for n in range(0,11):#寫入11種表格 因為idList和endFileNameList是一對一關係 在這層迴圈會同時用這兩個
             thList=soup.select(idList[n]+' thead tr th')#標題
-            fod=open(folder%(teamName,battingSplitsFileNameList[n])+partFileName%(teamName,year,endFileNameList[n]),'wb'.replace('&nbsp;',' '))
+            fod=open(folder%(teamName,pitchingDetailedFileNameList[n])+partFileName%(teamName,year,endFileNameList[n]),'w')
             #用字串格式化 輸入完整資料夾路徑檔名
 
             for th in thList:
