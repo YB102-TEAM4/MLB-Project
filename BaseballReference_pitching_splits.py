@@ -45,9 +45,6 @@ pitchingSplitsFileNameList = ['season_totals', 'season_totals_extra', 'platoon_s
 
 yearList = range(2005,2015) #年分從2005到2014
 
-teamNameList = ['ARI', 'ATL', 'BAL', 'BOS', 'CHC', 'CHW', 'CIN', 'CLE', 'COL', 'ANA', 'DET', 'FLA', 'HOU', 'KCR' \
-           , 'LAD', 'MIL', 'MIN', 'NYM', 'NYY', 'OAK', 'PHI', 'PIT', 'SDP', 'SEA', 'SFG', 'STL', 'TBD', 'TEX' \
-           , 'TOR', 'WSN']#隊名
 
 partFileName = '%s_%d_pitching_splits_%s.csv'    #檔案名稱
 folder='%s\\pitching_splits\\%s\\'    #資料夾名稱 第一個%s是隊名teamNameList 第二個%s是endFileNameList
