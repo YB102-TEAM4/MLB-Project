@@ -37,7 +37,17 @@ for year in yearList: #先依隊伍名稱和年份做兩次迴圈
 	        contentList = soup.select('#team_schedule tbody tr')#抓記錄
 	        ctMat = []
 	        i = 0
-	        for inx in contentList[0:49]:
+	        ################################################
+	        numList=range(0,50)+range(51,101)+range(102,152)+range(153,165)
+	        for num in numList:
+	        	ctMat.append([])
+	        	record = contentList[num].select('td')
+	        	for x in record[0:20]:
+	        		ctMat[i].append(x.text)
+	        	i += 1
+	        ################################################
+	        '''
+	        for inx in contentList[0:49]:  第49個沒抓到  以下幾個迴圈亦相同
 	        	ctMat.append([])
 	        	record = inx.select('td')
 	        	for x in record[0:20]:
@@ -60,7 +70,8 @@ for year in yearList: #先依隊伍名稱和年份做兩次迴圈
 	        	record = inx.select('td')
 	        	for x in record[0:20]:
 	        		ctMat[i].append(x.text)
-	        	i += 1				
+	        	i += 1
+	        '''
 
 	        for y in range(0,len(ctMat)):
 	    		arr = []
