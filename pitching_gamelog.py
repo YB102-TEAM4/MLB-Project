@@ -3,9 +3,6 @@ import requests,os
 import csv
 import string
 from bs4 import BeautifulSoup
-#http://www.baseball-reference.com/teams/tgl.cgi?team=ARI&t=b&year=2014
-
-#http://www.baseball-reference.com/teams/tgl.cgi?team=ARI&t=p&year=2014
 teamNameList = ['ARI', 'ATL', 'BAL', 'BOS', 'CHC', 'CHW', 'CIN', 'CLE', 'COL', 'LAA', 'DET', 'FLA', 'HOU', 'KCR' \
            , 'LAD', 'MIL', 'MIN', 'NYM', 'NYY', 'OAK', 'PHI', 'PIT', 'SDP', 'SEA', 'SFG', 'STL', 'TBD', 'TEX' \
            , 'TOR', 'WSN']#隊名
@@ -15,14 +12,14 @@ yearList = range(2005,2015)#年分從2005到2014
 
 #url = 'http://www.baseball-reference.com/teams/%s/%d-schedule-scores.shtml'
 url = 'http://www.baseball-reference.com/teams/tgl.cgi?team=%s&t=p&year=%d'
-partFileName = '%s_%d_Team_Pitching_Gamelog.csv'#檔案名稱
+partFileName = '%s_%d_Team Pitching Gamelog.csv'#檔案名稱
 folder='%s\\pitching_gamelogs\\'
 
 for teamName in teamNameList:  #從teamNameList中依序取出隊名
     if not os.path.exists(teamName):   #以相對路徑來看，若目前位置沒有存在此隊名名稱的資料夾
         os.mkdir(teamName)             #則建立一個此隊名名稱的資料夾
-    if not os.path.exists(folder%(teamName)):   #若在此隊名名稱資料夾內沒有存在schedule資料夾
-        os.mkdir(folder%(teamName))             #則建立一個schedule資料夾於此隊名名稱資料夾中
+    if not os.path.exists(folder%(teamName)):   #若在此隊名名稱資料夾內沒有存在pitching_gamelogs資料夾
+        os.mkdir(folder%(teamName))             #則建立一個pitching_gamelogs資料夾於此隊名名稱資料夾中
 
 for year in yearList: #先依隊伍名稱和年份做兩次迴圈
     for teamName in teamNameList:
