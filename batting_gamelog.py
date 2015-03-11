@@ -14,8 +14,8 @@ yearList = range(2005,2015)#年分從2005到2014
 
 #url = 'http://www.baseball-reference.com/teams/%s/%d-schedule-scores.shtml'
 url = 'http://www.baseball-reference.com/teams/tgl.cgi?team=%s&t=b&year=%d'
-partFileName = '%s_%d_batting_gamelog.csv'#檔案名稱
-folder='%s\\batting_gamelog\\'
+partFileName = '%s_%d_Team_Batting_Gamelog.csv'#檔案名稱
+folder='%s\\batting_gamelogs\\'
 
 for teamName in teamNameList:  #從teamNameList中依序取出隊名
     if not os.path.exists(teamName):   #以相對路徑來看，若目前位置沒有存在此隊名名稱的資料夾
