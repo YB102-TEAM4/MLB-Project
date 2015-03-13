@@ -78,7 +78,7 @@ for(s in s.list){
 v = cbind(x[1:2],z[6:7],y[1],z[1:5],x[3:ncol(x)],y[2:5])
 
 #改欄位名稱
-colnames(v)=c('year','game_date','D/N','attendance','umpire','team','H/A','opp','W/L','R','opp_starter','throws','b_PA','b_AB','b_H','b_2B','b_3B','b_HR','b_RBI','b_BB','b_SO','b_OBP','b_SLG','b_LOB','p_IP','p_ER','p_Pit','p_Str')
+colnames(v)=c('year','game_date','D/N','attendance','umpire','team','H/A','opp','W/L','R','opp_starter','throws','b_PA','b_AB','b_H','b_2B','b_3B','b_HR','b_RBI','b_BB','b_SO','b_OBP','b_SLG','b_OPS','b_LOB','p_IP','p_ER','p_Pit','p_Str')
 
 #比賽日期中的字串改數字
 v$game_date = sub("Mar ","03-",v$game_date)
@@ -103,4 +103,13 @@ v[ ,7] = sub("H@","A",v[ ,7])
 #將觀眾人數欄位刪除
 v = v[ ,-4] 
 
+#檢查勝負欄位中有哪些因子
+class = factor(v[ ,8])
+levels(class)
+
+#將有編碼問題的字串更正
+v[ ,8] = sub(" &H;","",v[ ,8])
+v[ ,8] = sub(" &V;","",v[ ,8])
+
+#先library("MASS"),將檔案輸出
 write.matrix(v,file="E:/yb102-4/gamelog.csv",sep=',')
