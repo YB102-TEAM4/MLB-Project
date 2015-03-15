@@ -1,0 +1,42 @@
+MIX_BatterSeasonLHP.csv
+MIX_BatterSeasonRHP.csv
+BATTER_YEAR_STATS.csv
+
+
+select b.name, b.year
+from b, l, r
+where b.name=l.name and b.name=r.name and b.year=l.year and b.year=r.year
+	and b.pa=r.pa+l.pa
+
+update l, r, b
+set l.team=b.team, r.team=b.team
+where b.name=l.name and b.name=r.name and b.year=l.year and b.year=r.year and b.pa=r.pa+l.pa
+
+
+update  b join l on b.name=l.name and b.year=l.year
+	join r on b.name=r.name and b.year=r.year
+set l.team=b.team , r.team=b.team
+where b.pa=r.pa+l.pa
+
+##################################################
+update l, b
+set l.team=b.team
+where b.name=l.name and b.year=l.year and b.pa=l.pa and l.team=''
+
+update r, b
+set r.team=b.team
+where b.name=r.name and b.year=r.year and b.pa=r.pa and r.team=''
+
+
+
+##################################################
+select name, pa
+from l
+where team=''
+order by pa desc
+
+select name, pa
+from r
+where team=''
+order by pa desc
+
