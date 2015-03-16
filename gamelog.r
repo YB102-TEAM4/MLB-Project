@@ -111,8 +111,8 @@ v$date=as.Date(v$date)  #將比賽日期欄位改為Date資料型態
 v = v[order(v$date,v$umpire,v$attendance),]
 
 #把主客場H/A欄位裡的空白和@改成H及A
-v[ ,6] = sub("","H",v[ ,6])
-v[ ,6] = sub("H@","A",v[ ,6])
+v[ ,7] = sub("","H",v[ ,7])
+v[ ,7] = sub("H@","A",v[ ,7])
 
 #將觀眾人數欄位刪除
 v = v[ ,-4] 
