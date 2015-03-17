@@ -60,7 +60,7 @@ TB = x[,8]+2*x[,9]+3*x[,10]+4*x[,11]
 x = cbind(x,TB)
 
 #更改batting gamelog矩陣的各欄位名稱
-colnames(x)=c('year','date','opp_starter','throws','b_PA','b_AB','b_H','b_1B','b_2B','b_3B','b_HR','b_BB','b_IBB','b_SO','b_HBP','b_SH','b_SF','b_ROE','b_GDP','b_SB','b_SB','b_CS','b_BA','b_OBP','b_SLG','b_OPS','b_LOB','b_TB')
+colnames(x)=c('year','date','opp_starter','throws','b_PA','b_AB','b_H','b_1B','b_2B','b_3B','b_HR','b_RBI','b_BB','b_IBB','b_SO','b_HBP','b_SH','b_SF','b_ROE','b_GDP','b_SB','b_CS','b_BA','b_OBP','b_SLG','b_OPS','b_LOB','b_TB')
 
 for(p in p.list){
   d2 = read.csv(p,header=T)
@@ -125,12 +125,15 @@ levels(class)
 v[ ,8] = sub(" &H;","",v[ ,8])
 v[ ,8] = sub(" &V;","",v[ ,8])
 
-with(v,{
-       WL=sub("-wo","",WL)
-       WL=sub("L","0",WL)
-       WL=sub("T","0",WL)
-       WL=sub("W","1",WL)
-   })
+#v[,8]=sub("-wo","",v[,8])
+#v[,8]=sub("L","0",v[,8])
+#v[,8]=sub("T","0",v[,8])
+#v[,8]=sub("W","1",v[,8])
+
+#v[,3]=sub("D","0",v[,3])
+#v[,3]=sub("N","1",v[,3])
+#v[,6]=sub("H","0",v[,6])
+#v[,6]=sub("A","1",v[,6])
 
 
 #先library("MASS"),將檔案輸出
