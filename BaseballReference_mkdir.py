@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import os
-teamNameList = ['ARI', 'ATL', 'BAL', 'BOS', 'CHC', 'CHW', 'CIN', 'CLE', 'COL', 'LAA', 'DET', 'FLA', 'HOU', 'KCR' \
-           , 'LAD', 'MIL', 'MIN', 'NYM', 'NYY', 'OAK', 'PHI', 'PIT', 'SDP', 'SEA', 'SFG', 'STL', 'TBD', 'TEX' \
+teamNameList = ['ARI', 'ATL', 'BAL', 'BOS', 'CHC', 'CHW', 'CIN', 'CLE', 'COL', 'DET', 'HOU', 'KCR', 'LAA' \
+           , 'LAD', 'MIA', 'MIL', 'MIN', 'NYM', 'NYY', 'OAK', 'PHI', 'PIT', 'SDP', 'SEA', 'SFG', 'STL', 'TBR', 'TEX' \
            , 'TOR', 'WSN']#隊名
 battingSplitsFileNameList = ['season_totals', 'platoon_splits', 'home_or_away', 'first_or_second_half', 'months', 'game_outcome_for_team', \
                    'starter_or_substitute', 'player_age', 'defensive_positions', 'leading_off_inning', 'batting_order_positions', \
@@ -44,6 +44,12 @@ for teamName in teamNameList:  #從teamNameList中依序取出隊名
         os.mkdir(teamName+'\\batting_detailed_stats')
     if not os.path.exists(teamName+'\\pitching_detailed_stats'):
         os.mkdir(teamName+'\\pitching_detailed_stats')               
+    if not os.path.exists(teamName+'\\pitching_gamelogs'):
+        os.mkdir(teamName+'\\pitching_gamelogs')
+    if not os.path.exists(teamName+'\\batting_gamelogs'):
+        os.mkdir(teamName+'\\batting_gamelogs')
+    if not os.path.exists(teamName+'\\schedule'):   #若在此隊名名稱資料夾內沒有存在schedule資料夾
+        os.mkdir(teamName+'\\schedule')             #則建立一個schedule資料夾於此隊名名稱資料夾中
     for endFileName in battingSplitsFileNameList:
         if not os.path.exists(teamName+'\\batting_splits\\'+endFileName):
             os.mkdir(teamName+'\\batting_splits\\'+endFileName)

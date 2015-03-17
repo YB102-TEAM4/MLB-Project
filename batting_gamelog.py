@@ -4,29 +4,36 @@ import csv
 import string
 from bs4 import BeautifulSoup
 
-teamNameList = ['ARI', 'ATL', 'BAL', 'BOS', 'CHC', 'CHW', 'CIN', 'CLE', 'COL', 'LAA', 'DET', 'FLA', 'HOU', 'KCR' \
-           , 'LAD', 'MIL', 'MIN', 'NYM', 'NYY', 'OAK', 'PHI', 'PIT', 'SDP', 'SEA', 'SFG', 'STL', 'TBD', 'TEX' \
-           , 'TOR', 'WSN']#隊名
+teamList = {'ARI':range(1998,2015), 'ATL':range(1969,2015), 'BAL':range(1969,2015), 'BOS':range(1969,2015) \
+          , 'CHC':range(1969,2015), 'CHW':range(1969,2015), 'CIN':range(1969,2015), 'CLE':range(1969,2015) \
+          , 'COL':range(1993,2015), 'DET':range(1969,2015), 'HOU':range(1969,2015), 'KCR':range(1969,2015) \
+          , 'LAA':range(1969,2015), 'LAD':range(1969,2015), 'MIA':range(1993,2015), 'MIL':range(1969,2015) \
+          , 'MIN':range(1969,2015), 'NYM':range(1969,2015), 'NYY':range(1969,2015), 'OAK':range(1969,2015) \
+          , 'PHI':range(1969,2015), 'PIT':range(1969,2015), 'SDP':range(1969,2015), 'SEA':range(1977,2015) \
+          , 'SFG':range(1969,2015), 'STL':range(1969,2015), 'TBR':range(1998,2015), 'TEX':range(1969,2015) \
+          , 'TOR':range(1977,2015), 'WSN':range(1969,2015)}#隊名及其存在年份
 
-yearList = range(2005,2015)#年分從2005到2014
 
-#url = 'http://www.baseball-reference.com/teams/%s/%d-schedule-scores.shtml'
 url = 'http://www.baseball-reference.com/teams/tgl.cgi?team=%s&t=b&year=%d'
 partFileName = '%s_%d_Team Batting Gamelog.csv'#檔案名稱
 folder='%s\\batting_gamelogs\\'
 
-for teamName in teamNameList:  #從teamNameList中依序取出隊名
-    if not os.path.exists(teamName):   #以相對路徑來看，若目前位置沒有存在此隊名名稱的資料夾
-        os.mkdir(teamName)             #則建立一個此隊名名稱的資料夾
-    if not os.path.exists(folder%(teamName)):   #若在此隊名名稱資料夾內沒有存在batting_gamelogs資料夾
-        os.mkdir(folder%(teamName))             #則建立一個batting_gamelogs資料夾於此隊名名稱資料夾中
-
-for year in yearList: #先依隊伍名稱和年份做兩次迴圈
-    for teamName in teamNameList:
-        if year > 2007 and teamName == 'TBD':
-            res=requests.get(url%('TBR',year))
-        elif year > 2011 and teamName == 'FLA':
-            res=requests.get(url%('MIA',year))
+for teamName in teamList:
+    for year in teamList[teamName]:
+        if teamName == 'LAA' and year < 1997: #若年份小於1997且teamName為LAA時 則改用CAL帶入網址
+            res=requests.get(url%('CAL',year))
+        elif teamName == 'LAA' and year > 1996 and year < 2005:
+            res=requests.get(url%('ANA',year))
+        elif teamName == 'MIA' and year < 2012:
+            res=requests.get(url%('FLA',year))
+        elif teamName == 'MIL' and year == 1969:
+            res=requests.get(url%('SEP',year))
+        elif teamName == 'TBR' and year < 2008:
+            res=requests.get(url%('TBD',year))            
+        elif teamName == 'TEX' and year < 1972:
+            res=requests.get(url%('WSA',year))
+        elif teamName == 'WSN' and year < 2005:
+            res=requests.get(url%('MON',year))
         else:
             res=requests.get(url%(teamName,year))#用字串格式化 輸入完整網址
         soup=BeautifulSoup(res.text.replace('&nbsp;','').encode('utf-8'))

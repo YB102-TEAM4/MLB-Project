@@ -1,8 +1,11 @@
 # -*- coding: utf-8 -*-
-import requests,os
-import csv
-import string
+import  os
+import requests, string
 from bs4 import BeautifulSoup
+
+#計算各隊各年份的pitching splits頁面裡的表格數目   
+
+url='http://www.baseball-reference.com/teams/split.cgi?t=p&team=%s&year=%d'
 teamList = {'ARI':range(1998,2015), 'ATL':range(1969,2015), 'BAL':range(1969,2015), 'BOS':range(1969,2015) \
           , 'CHC':range(1969,2015), 'CHW':range(1969,2015), 'CIN':range(1969,2015), 'CLE':range(1969,2015) \
           , 'COL':range(1993,2015), 'DET':range(1969,2015), 'HOU':range(1969,2015), 'KCR':range(1969,2015) \
@@ -12,12 +15,7 @@ teamList = {'ARI':range(1998,2015), 'ATL':range(1969,2015), 'BAL':range(1969,201
           , 'SFG':range(1969,2015), 'STL':range(1969,2015), 'TBR':range(1998,2015), 'TEX':range(1969,2015) \
           , 'TOR':range(1977,2015), 'WSN':range(1969,2015)}#隊名及其存在年份
 
-
-url = 'http://www.baseball-reference.com/teams/tgl.cgi?team=%s&t=p&year=%d'
-partFileName = '%s_%d_Team Pitching Gamelog.csv'#檔案名稱
-folder='%s\\pitching_gamelogs\\'
-
-
+fod=open('tableNum.csv','w') #開啟一個存放紀錄的csv檔
 for teamName in teamList:
     for year in teamList[teamName]:
         if teamName == 'LAA' and year < 1997:
@@ -35,37 +33,10 @@ for teamName in teamList:
         elif teamName == 'WSN' and year < 2005:
             res=requests.get(url%('MON',year))
         else:
-            res=requests.get(url%(teamName,year))#用字串格式化 輸入完整網址
-        soup=BeautifulSoup(res.text.replace('&nbsp;','').encode('utf-8'))
-        
-        with open(folder%(teamName)+partFileName%(teamName,year),'wb') as f:#用字串格式化 輸入完整資料夾路徑檔名
-        	w = csv.writer(f)
-        
-	        thList=soup.select('#team_pitching_gamelogs thead tr th')#抓標題
-	        thMat = []
-	        for row in thList[0:34]:
-	        	thMat.append(row.text)	        
-	        w.writerow(thMat)		
+            res=requests.get(url%(teamName,year))
 
-	        contentList = soup.select('tr[id^=team_pitching_gamelogs]')#抓記錄
-	        ctMat = []
-	        i = 0
-	        ################################################
-	        
-	        for content in contentList:
-	        	ctMat.append([])
-	        	record = content.select('td')
-	        	for x in record[0:34]:
-	        		ctMat[i].append(x.text)
-	        	i += 1
-	        ################################################
-	        
-
-	        for y in range(0,len(ctMat)):
-	    		arr = []
-	    		for z in ctMat[y][0:34]:
-	        		arr.append(z.encode('utf-8'))
-	    		w.writerow(arr)
-
-		f.close()	
-	print teamName + str(year) + ' over'
+        soup=BeautifulSoup(res.text.encode('utf8'))
+        fod.write(str(year)+','+teamName+','+str(len(soup.select('thead')))+'\n') #寫入csv檔
+        print str(year)+','+teamName+','+str(len(soup.select('thead'))) #印出
+        del res, soup
+fod.close()
