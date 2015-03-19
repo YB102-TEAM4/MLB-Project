@@ -3,7 +3,7 @@ team = c( 'ARI', 'ATL', 'BAL', 'BOS', 'CHC', 'CHW', 'CIN', 'CLE', 'COL', 'LAA', 
 b.list=NULL ; p.list=NULL ; s.list=NULL
 yearAdd=NULL 
 
-b.route = sprintf("E:/yb102-4/dataset/%s/batting_gamelogs/%s_2014_Team Batting Gamelog.csv",team,team)
+b.route = sprintf("D:/yb102-4/dataset/%s/batting_gamelogs/%s_2014_Team Batting Gamelog.csv",team,team)
 b.route = gsub("2014","%d",b.route)
 for(b in b.route){
   if(b=="E:/yb102-4/dataset/ARI/batting_gamelogs/ARI_%d_Team Batting Gamelog.csv"){
@@ -28,12 +28,12 @@ for(b in b.route){
     temp = sprintf(b,1969:2014)
     yearAdd = c(yearAdd,1969:2014)
   }
-  
+    
   b.list = c(b.list,temp)
 }
 
 
-p.route = sprintf("E:/yb102-4/dataset/%s/pitching_gamelogs/%s_2014_Team Pitching Gamelog.csv",team,team)
+p.route = sprintf("D:/yb102-4/dataset/%s/pitching_gamelogs/%s_2014_Team Pitching Gamelog.csv",team,team)
 p.route = gsub("2014","%d",p.route)
 for(p in p.route){
   if(p=="E:/yb102-4/dataset/ARI/pitching_gamelogs/ARI_%d_Team Pitching Gamelog.csv"){
@@ -55,7 +55,7 @@ for(p in p.route){
 }
 
 
-s.route = sprintf("E:/yb102-4/dataset/%s/schedule/%s_2014_schedule.csv",team,team)
+s.route = sprintf("D:/yb102-4/dataset/%s/schedule/%s_2014_schedule.csv",team,team)
 s.route = gsub("2014","%d",s.route)
 for(s in s.route){
   if(s=="E:/yb102-4/dataset/ARI/schedule/ARI_%d_schedule.csv"){
@@ -79,26 +79,26 @@ rm(b.route,p.route,s.route,temp) ; rm(b,p,s)
 
 
 
-x=NULL ; y=NULL ; z=NULL #設定放入batting_gamelog pitching_gamelog  schedule的三個空矩陣
+x=NULL ; y=NULL ; z=NULL
 
 i = 1
 for(b in b.list){
   d1 = read.csv(b,header=T)
-
+  
   #取batting gamelog中需要的欄位，並放入適當位置，並將內容放入t1矩陣
   t1 = d1[ ,3] 
   t1 = cbind(t1,d1[7:8])
-  t1 = cbind(t1,d1[10:25])
-  t1 = cbind(t1, d1[26:29])
+  t1 = cbind(t1,d1[10:29])
   t1 = cbind(t1[1],d1[32],d1[31],t1[2:ncol(t1)])
   
   #增加年份欄位，並在每一列加上該gamelog表格的年份
   year = array(rep(yearAdd[i], nrow(d1)),dim=c(nrow(d1),1)) 
-  t1 = cbind(year,t1)
+  t1 = cbind(year,t1)  
   i = i+1
   
-  x = rbind(x,t1)  
-}
+  x = rbind(x,t1)
+  
+}  
 
 #建立一壘安打數向量，並與batting gamelog矩陣合併
 b_1B = x[,7]-x[,8]-x[,9]-x[,10]
@@ -111,13 +111,12 @@ x = cbind(x,TB)
 #更改batting gamelog矩陣的各欄位名稱
 colnames(x)=c('year','date','opp_starter','throws','b_PA','b_AB','b_H','b_1B','b_2B','b_3B','b_HR','b_RBI','b_BB','b_IBB','b_SO','b_HBP','b_SH','b_SF','b_ROE','b_GDP','b_SB','b_CS','b_BA','b_OBP','b_SLG','b_OPS','b_LOB','b_TB')
 
+
 for(p in p.list){
   d2 = read.csv(p,header=T)
   
   #取pitching gamelog中需要的欄位，並放入適當位置，並將內容放入t2矩陣
   t2 = d2[ ,7:31]
-#  t2 = cbind(t2,d2[10])
-#  t2 = cbind(t2,d2[18:19])
   t2 = cbind(d2[33],t2)
   
   y = rbind(y,t2)
@@ -130,8 +129,8 @@ for(s in s.list){
   d3 = read.csv(s,header=T)
   
   #取schedule中需要的欄位，並放入適當位置，並將內容放入t3矩陣
-  t3 = d3[ ,6:11]
-  t3 = cbind(t3,d3[20:21])
+  t3 = d3[ ,5:10]
+  t3 = cbind(t3,d3[19:20])
   
   z = rbind(z,t3)
 }
@@ -142,27 +141,6 @@ colnames(z)=c('team','H/A','opp','W/L','R','RA','D/N','attendance')
 #合併x y z矩陣，並將欄位做適當的順序排列
 v = cbind(x[1:2],z[7:8],y[1],z[1:6],x[3:ncol(x)],y[2:ncol(y)])
 
-#######################################################################
-#CHW的1979年的date欄位，格式不同，必須調整格式，否則會變成空值
-temp <- read.csv("E:/yb102-4/dataset/CHW/pitching_gamelogs/CHW_1979_Team Pitching Gamelog.csv",header=T)
-
-
-temp[,3] = sub("Mar","03-",temp[,3])
-temp[,3] = sub("Apr","04-",temp[,3])
-temp[,3] = sub("May","05-",temp[,3])
-temp[,3] = sub("Jun","06-",temp[,3])
-temp[,3] = sub("Jul","07-",temp[,3])
-temp[,3] = sub("Aug","08-",temp[,3])
-temp[,3] = sub("Sep","09-",temp[,3])
-temp[,3] = sub("Oct","10-",temp[,3])
-
-
-temp[,3] = gsub("\\("," \\(",temp[,3])
-
-
-temp[,3] = paste(1979,temp[,3],sep='-')  #將比賽日期欄位貼上對應的年份
-temp[,3]=as.Date(temp[,3]) 
-#######################################################################
 
 #比賽日期中的字串改數字
 v$date = sub("Mar ","03-",v$date)
@@ -173,14 +151,9 @@ v$date = sub("Jul ","07-",v$date)
 v$date = sub("Aug ","08-",v$date)
 v$date = sub("Sep ","09-",v$date)
 v$date = sub("Oct ","10-",v$date)
- 
+
 v$date = paste(v$year,v$date,sep='-')  #將比賽日期欄位貼上對應的年份
 v$date=as.Date(v$date)  #將比賽日期欄位改為Date資料型態
-
-v[33623:33781,2] <- temp[,3] #將date欄位的空值替換掉
-
-#依日期、主審、觀眾人數依序排列
-v = v[order(v$date,v$umpire,v$attendance),]
 
 #把主客場H/A欄位裡的空白和@改成H及A
 v[ ,7] = sub("","H",v[ ,7])
@@ -201,8 +174,30 @@ v[ ,8] = sub(" &X;","",v[ ,8])
 v[ ,8] = sub(" \\*H","",v[ ,8])
 v[ ,8] = sub(" \\*V","",v[ ,8])
 
+v[,8]=sub("-wo","",v[,8])
+v[,8]=sub("L","0",v[,8])
+v[,8]=sub("T","0",v[,8])
+v[,8]=sub("W","1",v[,8])
 
+v[,3]=sub("D","0",v[,3])
+v[,3]=sub("N","1",v[,3])
+v[,6]=sub("H","0",v[,6])
+v[,6]=sub("A","1",v[,6])
 
-#先library("MASS"),將檔案輸出
-library("MASS", lib.loc="~/R/win-library/3.1")
-write.matrix(v,file="E:/yb102-4/gamelog.csv",sep=',')
+rm(d1,d2,d3,t1,t2,t3,x,y,z)
+rm(year)
+rm(TB,b_1B,yearAdd,b.list,p.list,s.list)
+rm(b,p,s,i)
+rm(class)
+
+for(i in team){
+  for(j in 1969:2014){
+    d=NULL
+    d=v[which(v$year==j & v$team==i),]
+    if(nrow(d)==0){
+      next
+    }else{
+      write.csv(d,file=sprintf("E:\\yb102-4\\forTest\\%s_%d_gamelogs.csv",i,j))
+    }
+  }
+}
