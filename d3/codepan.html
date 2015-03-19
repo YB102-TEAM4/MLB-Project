@@ -1,0 +1,47 @@
+<!DOCTYPE html> 
+<Html>
+  <HEAD>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="test.css">
+    
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    
+
+    <title>MLB</title>
+  </HEAD>
+  <BODY>
+
+    <h1 class="charts--headline">勝率預測圖<br></h1>
+    <div class="charts--container">
+      <ul>
+        <li class="chart">
+          <h3 class="chart--subHeadline">Who will win the game?</h3>
+          <h2 class="chart--headline">BAL vs. ARI</h2>
+          <div id="pieChart">
+            <svg id="pieChartSVG">
+              <defs>
+                <filter id='pieChartInsetShadow'>
+                  <feOffset dx='0' dy='0'/>
+                  <feGaussianBlur stdDeviation='3' result='offset-blur' />
+                  <feComposite operator='out' in='SourceGraphic' in2='offset-blur' result='inverse' />
+                  <feFlood flood-color='black' flood-opacity='1' result='color' />
+                  <feComposite operator='in' in='color' in2='inverse' result='shadow' />
+                  <feComposite operator='over' in='shadow' in2='SourceGraphic' />
+                </filter>
+                <filter id="pieChartDropShadow">
+                  <feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur" />
+                  <feOffset in="blur" dx="0" dy="3" result="offsetBlur" />
+                  <feMerge>
+                    <feMergeNode />
+                    <feMergeNode in="SourceGraphic" />
+                  </feMerge>
+                </filter>
+              </defs>
+            </svg>
+          </div>
+        </li>
+      <script src="test.js"></script>
+  </body>
+</Html>
+<!--template.html-->
+      
