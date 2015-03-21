@@ -3,7 +3,7 @@ team = c( 'ARI', 'ATL', 'BAL', 'BOS', 'CHC', 'CHW', 'CIN', 'CLE', 'COL', 'LAA', 
 b.list=NULL ; p.list=NULL ; s.list=NULL
 yearAdd=NULL 
 
-b.route = sprintf("D:/yb102-4/dataset/%s/batting_gamelogs/%s_2014_Team Batting Gamelog.csv",team,team)
+b.route = sprintf("E:/yb102-4/dataset/%s/batting_gamelogs/%s_2014_Team Batting Gamelog.csv",team,team)
 b.route = gsub("2014","%d",b.route)
 for(b in b.route){
   if(b=="E:/yb102-4/dataset/ARI/batting_gamelogs/ARI_%d_Team Batting Gamelog.csv"){
@@ -33,7 +33,7 @@ for(b in b.route){
 }
 
 
-p.route = sprintf("D:/yb102-4/dataset/%s/pitching_gamelogs/%s_2014_Team Pitching Gamelog.csv",team,team)
+p.route = sprintf("E:/yb102-4/dataset/%s/pitching_gamelogs/%s_2014_Team Pitching Gamelog.csv",team,team)
 p.route = gsub("2014","%d",p.route)
 for(p in p.route){
   if(p=="E:/yb102-4/dataset/ARI/pitching_gamelogs/ARI_%d_Team Pitching Gamelog.csv"){
@@ -55,7 +55,7 @@ for(p in p.route){
 }
 
 
-s.route = sprintf("D:/yb102-4/dataset/%s/schedule/%s_2014_schedule.csv",team,team)
+s.route = sprintf("E:/yb102-4/dataset/%s/schedule/%s_2014_schedule.csv",team,team)
 s.route = gsub("2014","%d",s.route)
 for(s in s.route){
   if(s=="E:/yb102-4/dataset/ARI/schedule/ARI_%d_schedule.csv"){
@@ -97,7 +97,7 @@ for(b in b.list){
   i = i+1
   
   x = rbind(x,t1)
-  
+  cat(str(b)," over","\n")
 }  
 
 #建立一壘安打數向量，並與batting gamelog矩陣合併
@@ -120,19 +120,25 @@ for(p in p.list){
   t2 = cbind(d2[33],t2)
   
   y = rbind(y,t2)
+  cat(str(p)," over","\n")
 }
 
+#建立被打一壘安打數向量，並與pitching gamelog矩陣合併
+p_1B = y[,3]-y[,9]-y[,20]-y[,21]
+y = cbind(y[,1:19],p_1B,y[,20:ncol(y)])
+
 #更改pitching gamelog各欄位名稱
-colnames(y)=c('umpire','p_IP','p_H','p_R','p_ER','p_UER','p_BB','p_SO','p_HR','p_HBP','p_ERA','p_BF','p_Pit','p_Str','p_IR','p_IS','p_SB','p_CS','p_AB','p_2B','p_3B','p_IBB','p_SH','p_SF','p_ROE','p_GDP')
+colnames(y)=c('umpire','p_IP','p_H','p_R','p_ER','p_UER','p_BB','p_SO','p_HR','p_HBP','p_ERA','p_BF','p_Pit','p_Str','p_IR','p_IS','p_SB','p_CS','p_AB','p_1B','p_2B','p_3B','p_IBB','p_SH','p_SF','p_ROE','p_GDP')
 
 for(s in s.list){
   d3 = read.csv(s,header=T)
   
   #取schedule中需要的欄位，並放入適當位置，並將內容放入t3矩陣
-  t3 = d3[ ,5:10]
-  t3 = cbind(t3,d3[19:20])
+  t3 = d3[ ,7:12]
+  t3 = cbind(t3,d3[21:22])
   
   z = rbind(z,t3)
+  cat(str(s)," over","\n")
 }
 
 #更改schedule各欄位名稱
@@ -141,6 +147,28 @@ colnames(z)=c('team','H/A','opp','W/L','R','RA','D/N','attendance')
 #合併x y z矩陣，並將欄位做適當的順序排列
 v = cbind(x[1:2],z[7:8],y[1],z[1:6],x[3:ncol(x)],y[2:ncol(y)])
 
+
+#######################################################################
+#CHW的1979年的date欄位，格式不同，必須調整格式，否則會變成空值
+temp <- read.csv("E:/yb102-4/dataset/CHW/pitching_gamelogs/CHW_1979_Team Pitching Gamelog.csv",header=T)
+
+
+temp[,3] = sub("Mar","03-",temp[,3])
+temp[,3] = sub("Apr","04-",temp[,3])
+temp[,3] = sub("May","05-",temp[,3])
+temp[,3] = sub("Jun","06-",temp[,3])
+temp[,3] = sub("Jul","07-",temp[,3])
+temp[,3] = sub("Aug","08-",temp[,3])
+temp[,3] = sub("Sep","09-",temp[,3])
+temp[,3] = sub("Oct","10-",temp[,3])
+
+
+temp[,3] = gsub("\\("," \\(",temp[,3])
+
+
+temp[,3] = paste(1979,temp[,3],sep='-')  #將比賽日期欄位貼上對應的年份
+temp[,3]=as.Date(temp[,3]) 
+#######################################################################
 
 #比賽日期中的字串改數字
 v$date = sub("Mar ","03-",v$date)
@@ -154,6 +182,9 @@ v$date = sub("Oct ","10-",v$date)
 
 v$date = paste(v$year,v$date,sep='-')  #將比賽日期欄位貼上對應的年份
 v$date=as.Date(v$date)  #將比賽日期欄位改為Date資料型態
+
+v[33623:33781,2] <- temp[,3] #將date欄位的空值替換掉
+
 
 #把主客場H/A欄位裡的空白和@改成H及A
 v[ ,7] = sub("","H",v[ ,7])
@@ -186,18 +217,40 @@ v[,6]=sub("A","1",v[,6])
 
 rm(d1,d2,d3,t1,t2,t3,x,y,z)
 rm(year)
-rm(TB,b_1B,yearAdd,b.list,p.list,s.list)
+rm(TB,b_1B,p_1B,yearAdd,b.list,p.list,s.list)
 rm(b,p,s,i)
 rm(class)
 
+team = c(team,"CAL","ANA","FLA","SEP","TBD","WSA","MON")
+
 for(i in team){
   for(j in 1969:2014){
-    d=NULL
     d=v[which(v$year==j & v$team==i),]
     if(nrow(d)==0){
       next
+    }else if(i %in% c("CAL","ANA")){
+      write.csv(d,file=sprintf("E:\\yb102-4\\forTest\\LAA_%d_gamelogs.csv",j),na="")
+      cat(i,"over \t")
+    }else if(i == "FLA"){      
+      write.csv(d,file=sprintf("E:\\yb102-4\\forTest\\MIA_%d_gamelogs.csv",j),na="")
+      cat(i,"over \t")
+    }else if(i == "SEP"){     
+      write.csv(d,file=sprintf("E:\\yb102-4\\forTest\\MIL_%d_gamelogs.csv",j),na="")
+      cat(i,"over \t")
+    }else if(i == "TBD"){
+      write.csv(d,file=sprintf("E:\\yb102-4\\forTest\\TBR_%d_gamelogs.csv",j),na="")
+      cat(i,"over \t")
+    }else if(i == "WSA"){      
+      write.csv(d,file=sprintf("E:\\yb102-4\\forTest\\TEX_%d_gamelogs.csv",j),na="")
+      cat(i,"over \t")
+    }else if(i == "MON"){      
+      write.csv(d,file=sprintf("E:\\yb102-4\\forTest\\WSN_%d_gamelogs.csv",j),na="")
+      cat(i,"over \t")
     }else{
-      write.csv(d,file=sprintf("E:\\yb102-4\\forTest\\%s_%d_gamelogs.csv",i,j))
+      write.csv(d,file=sprintf("E:\\yb102-4\\forTest\\%s_%d_gamelogs.csv",i,j),na="")
+      cat(i,"over \t")
     }
+  
   }
+
 }

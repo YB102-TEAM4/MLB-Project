@@ -3,25 +3,25 @@ team = c( 'ARI', 'ATL', 'BAL', 'BOS', 'CHC', 'CHW', 'CIN', 'CLE', 'COL', 'LAA', 
 b.list=NULL ; p.list=NULL ; s.list=NULL
 yearAdd=NULL 
 
-b.route = sprintf("E:/yb102-4/dataset/%s/batting_gamelogs/%s_2014_Team Batting Gamelog.csv",team,team)
+b.route = sprintf("D:/yb102-4/dataset/%s/batting_gamelogs/%s_2014_Team Batting Gamelog.csv",team,team)
 b.route = gsub("2014","%d",b.route)
 for(b in b.route){
-  if(b=="E:/yb102-4/dataset/ARI/batting_gamelogs/ARI_%d_Team Batting Gamelog.csv"){
+  if(b=="D:/yb102-4/dataset/ARI/batting_gamelogs/ARI_%d_Team Batting Gamelog.csv"){
     temp =sprintf(b,1998:2014)
     yearAdd = c(yearAdd,1998:2014)
-  }else if(b=="E:/yb102-4/dataset/COL/batting_gamelogs/COL_%d_Team Batting Gamelog.csv"){
+  }else if(b=="D:/yb102-4/dataset/COL/batting_gamelogs/COL_%d_Team Batting Gamelog.csv"){
     temp =sprintf(b,1993:2014)
     yearAdd = c(yearAdd,1993:2014)
-  }else if(b=="E:/yb102-4/dataset/MIA/batting_gamelogs/MIA_%d_Team Batting Gamelog.csv"){
+  }else if(b=="D:/yb102-4/dataset/MIA/batting_gamelogs/MIA_%d_Team Batting Gamelog.csv"){
     temp =sprintf(b,1993:2014)
     yearAdd = c(yearAdd,1993:2014)
-  }else if(b=="E:/yb102-4/dataset/SEA/batting_gamelogs/SEA_%d_Team Batting Gamelog.csv"){
+  }else if(b=="D:/yb102-4/dataset/SEA/batting_gamelogs/SEA_%d_Team Batting Gamelog.csv"){
     temp = sprintf(b,1977:2014)
     yearAdd = c(yearAdd,1977:2014)
-  }else if(b=="E:/yb102-4/dataset/TBR/batting_gamelogs/TBR_%d_Team Batting Gamelog.csv"){
+  }else if(b=="D:/yb102-4/dataset/TBR/batting_gamelogs/TBR_%d_Team Batting Gamelog.csv"){
     temp = sprintf(b,1998:2014)
     yearAdd = c(yearAdd,1998:2014)
-  }else if(b=="E:/yb102-4/dataset/TOR/batting_gamelogs/TOR_%d_Team Batting Gamelog.csv"){
+  }else if(b=="D:/yb102-4/dataset/TOR/batting_gamelogs/TOR_%d_Team Batting Gamelog.csv"){
     temp = sprintf(b,1977:2014)
     yearAdd = c(yearAdd,1977:2014)
   }else{
@@ -33,20 +33,20 @@ for(b in b.route){
 }
 
 
-p.route = sprintf("E:/yb102-4/dataset/%s/pitching_gamelogs/%s_2014_Team Pitching Gamelog.csv",team,team)
+p.route = sprintf("D:/yb102-4/dataset/%s/pitching_gamelogs/%s_2014_Team Pitching Gamelog.csv",team,team)
 p.route = gsub("2014","%d",p.route)
 for(p in p.route){
-  if(p=="E:/yb102-4/dataset/ARI/pitching_gamelogs/ARI_%d_Team Pitching Gamelog.csv"){
+  if(p=="D:/yb102-4/dataset/ARI/pitching_gamelogs/ARI_%d_Team Pitching Gamelog.csv"){
     temp = sprintf(p,1998:2014)
-  }else if(p=="E:/yb102-4/dataset/COL/pitching_gamelogs/COL_%d_Team Pitching Gamelog.csv"){
+  }else if(p=="D:/yb102-4/dataset/COL/pitching_gamelogs/COL_%d_Team Pitching Gamelog.csv"){
     temp = sprintf(p,1993:2014)
-  }else if(p=="E:/yb102-4/dataset/MIA/pitching_gamelogs/MIA_%d_Team Pitching Gamelog.csv"){
+  }else if(p=="D:/yb102-4/dataset/MIA/pitching_gamelogs/MIA_%d_Team Pitching Gamelog.csv"){
     temp = sprintf(p,1993:2014)
-  }else if(p=="E:/yb102-4/dataset/SEA/pitching_gamelogs/SEA_%d_Team Pitching Gamelog.csv"){
+  }else if(p=="D:/yb102-4/dataset/SEA/pitching_gamelogs/SEA_%d_Team Pitching Gamelog.csv"){
     temp = sprintf(p,1977:2014)
-  }else if(p=="E:/yb102-4/dataset/TBR/pitching_gamelogs/TBR_%d_Team Pitching Gamelog.csv"){
+  }else if(p=="D:/yb102-4/dataset/TBR/pitching_gamelogs/TBR_%d_Team Pitching Gamelog.csv"){
     temp = sprintf(p,1998:2014)
-  }else if(p=="E:/yb102-4/dataset/TOR/pitching_gamelogs/TOR_%d_Team Pitching Gamelog.csv"){
+  }else if(p=="D:/yb102-4/dataset/TOR/pitching_gamelogs/TOR_%d_Team Pitching Gamelog.csv"){
     temp = sprintf(p,1977:2014)
   }else{
     temp = sprintf(p,1969:2014)
@@ -55,20 +55,20 @@ for(p in p.route){
 }
 
 
-s.route = sprintf("E:/yb102-4/dataset/%s/schedule/%s_2014_schedule.csv",team,team)
+s.route = sprintf("D:/yb102-4/dataset/%s/schedule/%s_2014_schedule.csv",team,team)
 s.route = gsub("2014","%d",s.route)
 for(s in s.route){
-  if(s=="E:/yb102-4/dataset/ARI/schedule/ARI_%d_schedule.csv"){
+  if(s=="D:/yb102-4/dataset/ARI/schedule/ARI_%d_schedule.csv"){
     temp = sprintf(s,1998:2014)
-  }else if(s=="E:/yb102-4/dataset/COL/schedule/COL_%d_schedule.csv"){
+  }else if(s=="D:/yb102-4/dataset/COL/schedule/COL_%d_schedule.csv"){
     temp = sprintf(s,1993:2014)
-  }else if(s=="E:/yb102-4/dataset/MIA/schedule/MIA_%d_schedule.csv"){
+  }else if(s=="D:/yb102-4/dataset/MIA/schedule/MIA_%d_schedule.csv"){
     temp = sprintf(s,1993:2014)
-  }else if(s=="E:/yb102-4/dataset/SEA/schedule/SEA_%d_schedule.csv"){
+  }else if(s=="D:/yb102-4/dataset/SEA/schedule/SEA_%d_schedule.csv"){
     temp = sprintf(s,1977:2014)
-  }else if(s=="E:/yb102-4/dataset/TBR/schedule/TBR_%d_schedule.csv"){
+  }else if(s=="D:/yb102-4/dataset/TBR/schedule/TBR_%d_schedule.csv"){
     temp = sprintf(s,1998:2014)
-  }else if(s=="E:/yb102-4/dataset/TOR/schedule/TOR_%d_schedule.csv"){
+  }else if(s=="D:/yb102-4/dataset/TOR/schedule/TOR_%d_schedule.csv"){
     temp = sprintf(s,1977:2014)
   }else{
     temp = sprintf(s,1969:2014)
@@ -98,6 +98,7 @@ for(b in b.list){
   i = i+1
   
   x = rbind(x,t1)  
+  cat(str(b)," over","\n")
 }
 
 #建立一壘安打數向量，並與batting gamelog矩陣合併
@@ -121,6 +122,7 @@ for(p in p.list){
   t2 = cbind(d2[33],t2)
   
   y = rbind(y,t2)
+  cat(str(p)," over","\n")
 }
 
 #更改pitching gamelog各欄位名稱
@@ -134,6 +136,7 @@ for(s in s.list){
   t3 = cbind(t3,d3[20:21])
   
   z = rbind(z,t3)
+  cat(str(s)," over","\n")
 }
 
 #更改schedule各欄位名稱
@@ -144,24 +147,24 @@ v = cbind(x[1:2],z[7:8],y[1],z[1:6],x[3:ncol(x)],y[2:ncol(y)])
 
 #######################################################################
 #CHW的1979年的date欄位，格式不同，必須調整格式，否則會變成空值
-temp <- read.csv("E:/yb102-4/dataset/CHW/pitching_gamelogs/CHW_1979_Team Pitching Gamelog.csv",header=T)
+#temp <- read.csv("D:/yb102-4/dataset/CHW/pitching_gamelogs/CHW_1979_Team Pitching Gamelog.csv",header=T)
 
 
-temp[,3] = sub("Mar","03-",temp[,3])
-temp[,3] = sub("Apr","04-",temp[,3])
-temp[,3] = sub("May","05-",temp[,3])
-temp[,3] = sub("Jun","06-",temp[,3])
-temp[,3] = sub("Jul","07-",temp[,3])
-temp[,3] = sub("Aug","08-",temp[,3])
-temp[,3] = sub("Sep","09-",temp[,3])
-temp[,3] = sub("Oct","10-",temp[,3])
+#temp[,3] = sub("Mar","03-",temp[,3])
+#temp[,3] = sub("Apr","04-",temp[,3])
+#temp[,3] = sub("May","05-",temp[,3])
+#temp[,3] = sub("Jun","06-",temp[,3])
+#temp[,3] = sub("Jul","07-",temp[,3])
+#temp[,3] = sub("Aug","08-",temp[,3])
+#temp[,3] = sub("Sep","09-",temp[,3])
+#temp[,3] = sub("Oct","10-",temp[,3])
 
 
-temp[,3] = gsub("\\("," \\(",temp[,3])
+#temp[,3] = gsub("\\("," \\(",temp[,3])
 
 
-temp[,3] = paste(1979,temp[,3],sep='-')  #將比賽日期欄位貼上對應的年份
-temp[,3]=as.Date(temp[,3]) 
+#temp[,3] = paste(1979,temp[,3],sep='-')  #將比賽日期欄位貼上對應的年份
+#temp[,3]=as.Date(temp[,3]) 
 #######################################################################
 
 #比賽日期中的字串改數字
@@ -177,7 +180,7 @@ v$date = sub("Oct ","10-",v$date)
 v$date = paste(v$year,v$date,sep='-')  #將比賽日期欄位貼上對應的年份
 v$date=as.Date(v$date)  #將比賽日期欄位改為Date資料型態
 
-v[33623:33781,2] <- temp[,3] #將date欄位的空值替換掉
+#v[33623:33781,2] <- temp[,3] #將date欄位的空值替換掉
 
 #依日期、主審、觀眾人數依序排列
 v = v[order(v$date,v$umpire,v$attendance),]
@@ -201,8 +204,4 @@ v[ ,8] = sub(" &X;","",v[ ,8])
 v[ ,8] = sub(" \\*H","",v[ ,8])
 v[ ,8] = sub(" \\*V","",v[ ,8])
 
-
-
-#先library("MASS"),將檔案輸出
-library("MASS", lib.loc="~/R/win-library/3.1")
-write.matrix(v,file="E:/yb102-4/gamelog.csv",sep=',')
+write.csv(v,file="D:/yb102-4/gamelog.csv",na="")
