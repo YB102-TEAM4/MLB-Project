@@ -189,19 +189,18 @@ v = v[order(v$date,v$umpire,v$attendance),]
 v[ ,7] = sub("","H",v[ ,7])
 v[ ,7] = sub("H@","A",v[ ,7])
 
-#將觀眾人數欄位刪除
-v = v[ ,-4] 
+
 
 #檢查勝負欄位中有哪些因子
-class = factor(v[ ,8])
+class = factor(v[ ,9])
 levels(class)
 
 #將有編碼問題的字串更正
-v[ ,8] = sub(" &H;","",v[ ,8])
-v[ ,8] = sub(" &V;","",v[ ,8])
-v[ ,8] = sub(" &P;","",v[ ,8])
-v[ ,8] = sub(" &X;","",v[ ,8])
-v[ ,8] = sub(" \\*H","",v[ ,8])
-v[ ,8] = sub(" \\*V","",v[ ,8])
+v[ ,9] = sub(" &H;","",v[ ,9])
+v[ ,9] = sub(" &V;","",v[ ,9])
+v[ ,9] = sub(" &P;","",v[ ,9])
+v[ ,9] = sub(" &X;","",v[ ,9])
+v[ ,9] = sub(" \\*H","",v[ ,9])
+v[ ,9] = sub(" \\*V","",v[ ,9])
 
 write.csv(v,file="D:/yb102-4/gamelog.csv",na="")
