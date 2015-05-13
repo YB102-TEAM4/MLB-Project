@@ -122,9 +122,9 @@ gap = testModel$pred_diff - testModel$R.diff
 
 
 #預測得分公式2   Run = (.457*b_1B) +  (.786*b_2B) + (1.15*b_3B) + (1.55*b_HR) + (.164*b_BB)
-pred_R2 = (.457*testModel$b_1B) + (.786*testModel$b_2B) + (1.15*testModel$b_3B) + (1.55*testModel$b_HR) + (.164*testModel$b_BB)
-pred_RA2 = (.457*testModel$p_1B) + (.786*testModel$p_2B) + (1.15*testModel$p_3B) + (1.55*testModel$p_HR) + (.164*testModel$p_BB)
-pred_diff2 = pred_R2 - pred_RA2
+pred.R2 = (.457*testModel$b_1B) + (.786*testModel$b_2B) + (1.15*testModel$b_3B) + (1.55*testModel$b_HR) + (.164*testModel$b_BB)
+pred.RA2 = (.457*testModel$p_1B) + (.786*testModel$p_2B) + (1.15*testModel$p_3B) + (1.55*testModel$p_HR) + (.164*testModel$p_BB)
+pred.diff2 = pred.R2 - pred.RA2
 testModel = cbind(testModel,pred_diff2)
 
 #預測得分公式3
@@ -138,10 +138,10 @@ b = (1.4*testModel$p_TB-0.6*testModel$p_H-0.3*testModel$p_HR+0.1*testModel$p_BB)
 c = testModel$p_AB - testModel$p_H
 d = testModel$p_HR
 
-pred_R3 = (A*B/(B+C))+D
-pred_RA3 = (a*b/(b+c))+d
-pred_diff3 = pred_R3 - pred_RA3
-testModel = cbind(testModel,pred_diff3)
+pred.R3 = (A*B/(B+C))+D
+pred.RA3 = (a*b/(b+c))+d
+pred.diff3 = pred.R3 - pred.RA3
+testModel = cbind(testModel,pred.diff3)
 
 #library("MASS", lib.loc="~/R/win-library/3.1")
 write.csv(testModel,file="E:/yb102-4/testModel_v5.csv",na="")

@@ -1,0 +1,2431 @@
+Date,away_team,home_team
+2015/4/6,Toronto,NY Yankees
+2015/4/6,Minnesota,Detroit
+2015/4/6,Colorado,Milwaukee
+2015/4/6,Boston,Philadelphia
+2015/4/6,Baltimore,Tampa Bay
+2015/4/6,NY Mets,Washington
+2015/4/6,Chicago White Sox,Kansas City
+2015/4/6,LA Angels,Seattle
+2015/4/6,Pittsburgh,Cincinnati
+2015/4/6,San Diego,LA Dodgers
+2015/4/6,Atlanta,Miami
+2015/4/6,Cleveland,Houston
+2015/4/6,San Francisco,Arizona
+2015/4/6,Texas,Oakland
+2015/4/7,Atlanta,Miami
+2015/4/7,Baltimore,Tampa Bay
+2015/4/7,St. Louis,Chicago Cubs
+2015/4/7,Colorado,Milwaukee
+2015/4/7,San Francisco,Arizona
+2015/4/7,Texas,Oakland
+2015/4/7,LA Angels,Seattle
+2015/4/7,San Diego,LA Dodgers
+2015/4/8,Minnesota,Detroit
+2015/4/8,St. Louis,Chicago Cubs
+2015/4/8,Boston,Philadelphia
+2015/4/8,Toronto,NY Yankees
+2015/4/8,NY Mets,Washington
+2015/4/8,Pittsburgh,Cincinnati
+2015/4/8,Atlanta,Miami
+2015/4/8,Baltimore,Tampa Bay
+2015/4/8,Chicago White Sox,Kansas City
+2015/4/8,Colorado,Milwaukee
+2015/4/8,Cleveland,Houston
+2015/4/8,San Francisco,Arizona
+2015/4/8,San Diego,LA Dodgers
+2015/4/8,Texas,Oakland
+2015/4/8,LA Angels,Seattle
+2015/4/9,Pittsburgh,Cincinnati
+2015/4/9,NY Mets,Washington
+2015/4/9,Minnesota,Detroit
+2015/4/9,Chicago White Sox,Kansas City
+2015/4/9,Texas,Oakland
+2015/4/9,San Francisco,San Diego
+2015/4/9,Toronto,NY Yankees
+2015/4/9,Boston,Philadelphia
+2015/4/9,Cleveland,Houston
+2015/4/10,Toronto,Baltimore
+2015/4/10,Detroit,Cleveland
+2015/4/10,Houston,Texas
+2015/4/10,Minnesota,Chicago White Sox
+2015/4/10,Chicago Cubs,Colorado
+2015/4/10,Boston,NY Yankees
+2015/4/10,Washington,Philadelphia
+2015/4/10,St. Louis,Cincinnati
+2015/4/10,Tampa Bay,Miami
+2015/4/10,NY Mets,Atlanta
+2015/4/10,Pittsburgh,Milwaukee
+2015/4/10,LA Dodgers,Arizona
+2015/4/10,Kansas City,LA Angels
+2015/4/10,Seattle,Oakland
+2015/4/10,San Francisco,San Diego
+2015/4/11,Boston,NY Yankees
+2015/4/11,St. Louis,Cincinnati
+2015/4/11,Minnesota,Chicago White Sox
+2015/4/11,Detroit,Cleveland
+2015/4/11,Seattle,Oakland
+2015/4/11,Tampa Bay,Miami
+2015/4/11,Toronto,Baltimore
+2015/4/11,Washington,Philadelphia
+2015/4/11,Pittsburgh,Milwaukee
+2015/4/11,NY Mets,Atlanta
+2015/4/11,Houston,Texas
+2015/4/11,Chicago Cubs,Colorado
+2015/4/11,LA Dodgers,Arizona
+2015/4/11,San Francisco,San Diego
+2015/4/11,Kansas City,LA Angels
+2015/4/12,Detroit,Cleveland
+2015/4/12,St. Louis,Cincinnati
+2015/4/12,Tampa Bay,Miami
+2015/4/12,Toronto,Baltimore
+2015/4/12,NY Mets,Atlanta
+2015/4/12,Washington,Philadelphia
+2015/4/12,Minnesota,Chicago White Sox
+2015/4/12,Pittsburgh,Milwaukee
+2015/4/12,Houston,Texas
+2015/4/12,Kansas City,LA Angels
+2015/4/12,Seattle,Oakland
+2015/4/12,San Francisco,San Diego
+2015/4/12,Chicago Cubs,Colorado
+2015/4/12,LA Dodgers,Arizona
+2015/4/12,Boston,NY Yankees
+2015/4/13,Philadelphia,NY Mets
+2015/4/13,Detroit,Pittsburgh
+2015/4/13,Washington,Boston
+2015/4/13,Kansas City,Minnesota
+2015/4/13,Milwaukee,St. Louis
+2015/4/13,Colorado,San Francisco
+2015/4/13,NY Yankees,Baltimore
+2015/4/13,Tampa Bay,Toronto
+2015/4/13,Miami,Atlanta
+2015/4/13,LA Angels,Texas
+2015/4/13,Cincinnati,Chicago Cubs
+2015/4/13,Oakland,Houston
+2015/4/13,Seattle,LA Dodgers
+2015/4/13,Arizona,San Diego
+2015/4/14,Washington,Boston
+2015/4/14,NY Yankees,Baltimore
+2015/4/14,Chicago White Sox,Cleveland
+2015/4/14,Detroit,Pittsburgh
+2015/4/14,Tampa Bay,Toronto
+2015/4/14,Miami,Atlanta
+2015/4/14,Philadelphia,NY Mets
+2015/4/14,LA Angels,Texas
+2015/4/14,Cincinnati,Chicago Cubs
+2015/4/14,Oakland,Houston
+2015/4/14,Seattle,LA Dodgers
+2015/4/14,Arizona,San Diego
+2015/4/14,Colorado,San Francisco
+2015/4/15,Chicago White Sox,Cleveland
+2015/4/15,Miami,Atlanta
+2015/4/15,Washington,Boston
+2015/4/15,LA Angels,Texas
+2015/4/15,NY Yankees,Baltimore
+2015/4/15,Detroit,Pittsburgh
+2015/4/15,Tampa Bay,Toronto
+2015/4/15,Philadelphia,NY Mets
+2015/4/15,Cincinnati,Chicago Cubs
+2015/4/15,Kansas City,Minnesota
+2015/4/15,Oakland,Houston
+2015/4/15,Milwaukee,St. Louis
+2015/4/15,Arizona,San Diego
+2015/4/15,Seattle,LA Dodgers
+2015/4/15,Colorado,San Francisco
+2015/4/16,Kansas City,Minnesota
+2015/4/16,Milwaukee,St. Louis
+2015/4/16,Philadelphia,Washington
+2015/4/16,Tampa Bay,Toronto
+2015/4/16,Miami,NY Mets
+2015/4/16,Arizona,San Francisco
+2015/4/17,Chicago White Sox,Detroit
+2015/4/17,San Diego,Chicago Cubs
+2015/4/17,Philadelphia,Washington
+2015/4/17,Milwaukee,Pittsburgh
+2015/4/17,Atlanta,Toronto
+2015/4/17,Baltimore,Boston
+2015/4/17,Miami,NY Mets
+2015/4/17,NY Yankees,Tampa Bay
+2015/4/17,Oakland,Kansas City
+2015/4/17,Cleveland,Minnesota
+2015/4/17,LA Angels,Houston
+2015/4/17,Cincinnati,St. Louis
+2015/4/17,Texas,Seattle
+2015/4/17,Colorado,LA Dodgers
+2015/4/17,Arizona,San Francisco
+2015/4/18,Philadelphia,Washington
+2015/4/18,Atlanta,Toronto
+2015/4/18,Chicago White Sox,Detroit
+2015/4/18,Cleveland,Minnesota
+2015/4/18,Cincinnati,St. Louis
+2015/4/18,San Diego,Chicago Cubs
+2015/4/18,Baltimore,Boston
+2015/4/18,Milwaukee,Pittsburgh
+2015/4/18,Oakland,Kansas City
+2015/4/18,LA Angels,Houston
+2015/4/18,Miami,NY Mets
+2015/4/18,NY Yankees,Tampa Bay
+2015/4/18,Arizona,San Francisco
+2015/4/18,Texas,Seattle
+2015/4/18,Colorado,LA Dodgers
+2015/4/19,Atlanta,Toronto
+2015/4/19,Chicago White Sox,Detroit
+2015/4/19,Miami,NY Mets
+2015/4/19,NY Yankees,Tampa Bay
+2015/4/19,Baltimore,Boston
+2015/4/19,Philadelphia,Washington
+2015/4/19,Milwaukee,Pittsburgh
+2015/4/19,Oakland,Kansas City
+2015/4/19,Cleveland,Minnesota
+2015/4/19,LA Angels,Houston
+2015/4/19,San Diego,Chicago Cubs
+2015/4/19,Arizona,San Francisco
+2015/4/19,Texas,Seattle
+2015/4/19,Colorado,LA Dodgers
+2015/4/19,Cincinnati,St. Louis
+2015/4/20,Baltimore,Boston
+2015/4/20,Chicago Cubs,Pittsburgh
+2015/4/20,NY Yankees,Detroit
+2015/4/20,Cincinnati,Milwaukee
+2015/4/20,Cleveland,Chicago White Sox
+2015/4/20,Minnesota,Kansas City
+2015/4/20,San Diego,Colorado
+2015/4/20,Oakland,LA Angels
+2015/4/20,Houston,Seattle
+2015/4/21,St. Louis,Washington
+2015/4/21,Miami,Philadelphia
+2015/4/21,Chicago Cubs,Pittsburgh
+2015/4/21,Baltimore,Toronto
+2015/4/21,NY Yankees,Detroit
+2015/4/21,Atlanta,NY Mets
+2015/4/21,Boston,Tampa Bay
+2015/4/21,Cleveland,Chicago White Sox
+2015/4/21,Minnesota,Kansas City
+2015/4/21,Cincinnati,Milwaukee
+2015/4/21,San Diego,Colorado
+2015/4/21,Texas,Arizona
+2015/4/21,Oakland,LA Angels
+2015/4/21,Houston,Seattle
+2015/4/21,LA Dodgers,San Francisco
+2015/4/22,Cleveland,Chicago White Sox
+2015/4/22,St. Louis,Washington
+2015/4/22,Miami,Philadelphia
+2015/4/22,Chicago Cubs,Pittsburgh
+2015/4/22,Baltimore,Toronto
+2015/4/22,NY Yankees,Detroit
+2015/4/22,Atlanta,NY Mets
+2015/4/22,Boston,Tampa Bay
+2015/4/22,Minnesota,Kansas City
+2015/4/22,Cincinnati,Milwaukee
+2015/4/22,San Diego,Colorado
+2015/4/22,Texas,Arizona
+2015/4/22,Oakland,LA Angels
+2015/4/22,Houston,Seattle
+2015/4/22,LA Dodgers,San Francisco
+2015/4/23,Chicago Cubs,Pittsburgh
+2015/4/23,Miami,Philadelphia
+2015/4/23,NY Yankees,Detroit
+2015/4/23,Atlanta,NY Mets
+2015/4/23,Cincinnati,Milwaukee
+2015/4/23,San Diego,Colorado
+2015/4/23,LA Dodgers,San Francisco
+2015/4/23,St. Louis,Washington
+2015/4/23,Oakland,LA Angels
+2015/4/23,Baltimore,Toronto
+2015/4/23,Boston,Tampa Bay
+2015/4/23,Kansas City,Chicago White Sox
+2015/4/24,Boston,Baltimore
+2015/4/24,NY Mets,NY Yankees
+2015/4/24,Atlanta,Philadelphia
+2015/4/24,Cleveland,Detroit
+2015/4/24,Chicago Cubs,Cincinnati
+2015/4/24,Washington,Miami
+2015/4/24,Toronto,Tampa Bay
+2015/4/24,Kansas City,Chicago White Sox
+2015/4/24,St. Louis,Milwaukee
+2015/4/24,San Francisco,Colorado
+2015/4/24,Pittsburgh,Arizona
+2015/4/24,Texas,LA Angels
+2015/4/24,Houston,Oakland
+2015/4/24,Minnesota,Seattle
+2015/4/24,LA Dodgers,San Diego
+2015/4/25,Cleveland,Detroit
+2015/4/25,Chicago Cubs,Cincinnati
+2015/4/25,Kansas City,Chicago White Sox
+2015/4/25,NY Mets,NY Yankees
+2015/4/25,Houston,Oakland
+2015/4/25,Washington,Miami
+2015/4/25,Toronto,Tampa Bay
+2015/4/25,Boston,Baltimore
+2015/4/25,Atlanta,Philadelphia
+2015/4/25,St. Louis,Milwaukee
+2015/4/25,San Francisco,Colorado
+2015/4/25,Pittsburgh,Arizona
+2015/4/25,LA Dodgers,San Diego
+2015/4/25,Texas,LA Angels
+2015/4/25,Minnesota,Seattle
+2015/4/26,Cleveland,Detroit
+2015/4/26,Chicago Cubs,Cincinnati
+2015/4/26,Washington,Miami
+2015/4/26,Toronto,Tampa Bay
+2015/4/26,Boston,Baltimore
+2015/4/26,Atlanta,Philadelphia
+2015/4/26,Kansas City,Chicago White Sox
+2015/4/26,St. Louis,Milwaukee
+2015/4/26,Texas,LA Angels
+2015/4/26,Houston,Oakland
+2015/4/26,Minnesota,Seattle
+2015/4/26,LA Dodgers,San Diego
+2015/4/26,San Francisco,Colorado
+2015/4/26,Pittsburgh,Arizona
+2015/4/26,NY Mets,NY Yankees
+2015/4/27,Kansas City,Cleveland
+2015/4/27,Toronto,Boston
+2015/4/27,Chicago White Sox,Baltimore
+2015/4/27,Tampa Bay,NY Yankees
+2015/4/27,Washington,Atlanta
+2015/4/27,Milwaukee,Cincinnati
+2015/4/27,NY Mets,Miami
+2015/4/27,Seattle,Texas
+2015/4/27,Pittsburgh,Chicago Cubs
+2015/4/27,Detroit,Minnesota
+2015/4/27,Philadelphia,St. Louis
+2015/4/27,Colorado,Arizona
+2015/4/27,San Francisco,LA Dodgers
+2015/4/27,Houston,San Diego
+2015/4/28,Kansas City,Cleveland
+2015/4/28,Toronto,Boston
+2015/4/28,Chicago White Sox,Baltimore
+2015/4/28,Tampa Bay,NY Yankees
+2015/4/28,Washington,Atlanta
+2015/4/28,Milwaukee,Cincinnati
+2015/4/28,NY Mets,Miami
+2015/4/28,Seattle,Texas
+2015/4/28,Pittsburgh,Chicago Cubs
+2015/4/28,Detroit,Minnesota
+2015/4/28,Philadelphia,St. Louis
+2015/4/28,Colorado,Arizona
+2015/4/28,LA Angels,Oakland
+2015/4/28,San Francisco,LA Dodgers
+2015/4/28,Houston,San Diego
+2015/4/29,Milwaukee,Cincinnati
+2015/4/29,Tampa Bay,NY Yankees
+2015/4/29,Detroit,Minnesota
+2015/4/29,Houston,San Diego
+2015/4/29,Kansas City,Cleveland
+2015/4/29,Toronto,Boston
+2015/4/29,Chicago White Sox,Baltimore
+2015/4/29,Washington,Atlanta
+2015/4/29,NY Mets,Miami
+2015/4/29,Seattle,Texas
+2015/4/29,Pittsburgh,Chicago Cubs
+2015/4/29,Philadelphia,St. Louis
+2015/4/29,Colorado,Arizona
+2015/4/29,LA Angels,Oakland
+2015/4/29,San Francisco,LA Dodgers
+2015/4/30,Philadelphia,St. Louis
+2015/4/30,LA Angels,Oakland
+2015/4/30,Toronto,Cleveland
+2015/4/30,Cincinnati,Atlanta
+2015/4/30,Washington,NY Mets
+2015/4/30,Detroit,Kansas City
+2015/4/30,Chicago White Sox,Minnesota
+2015/4/30,Seattle,Houston
+2015/5/1,Milwaukee,Chicago Cubs
+2015/5/1,Tampa Bay,Baltimore
+2015/5/1,Toronto,Cleveland
+2015/5/1,NY Yankees,Boston
+2015/5/1,Washington,NY Mets
+2015/5/1,Philadelphia,Miami
+2015/5/1,Cincinnati,Atlanta
+2015/5/1,Oakland,Texas
+2015/5/1,Detroit,Kansas City
+2015/5/1,Chicago White Sox,Minnesota
+2015/5/1,Seattle,Houston
+2015/5/1,Pittsburgh,St. Louis
+2015/5/1,Arizona,LA Dodgers
+2015/5/1,Colorado,San Diego
+2015/5/1,LA Angels,San Francisco
+2015/5/2,NY Yankees,Boston
+2015/5/2,Chicago White Sox,Minnesota
+2015/5/2,Pittsburgh,St. Louis
+2015/5/2,Milwaukee,Chicago Cubs
+2015/5/2,Toronto,Cleveland
+2015/5/2,LA Angels,San Francisco
+2015/5/2,Philadelphia,Miami
+2015/5/2,Tampa Bay,Baltimore
+2015/5/2,Detroit,Kansas City
+2015/5/2,Cincinnati,Atlanta
+2015/5/2,Seattle,Houston
+2015/5/2,Washington,NY Mets
+2015/5/2,Oakland,Texas
+2015/5/2,Colorado,San Diego
+2015/5/2,Arizona,LA Dodgers
+2015/5/3,Toronto,Cleveland
+2015/5/3,Washington,NY Mets
+2015/5/3,Philadelphia,Miami
+2015/5/3,Tampa Bay,Baltimore
+2015/5/3,Cincinnati,Atlanta
+2015/5/3,Detroit,Kansas City
+2015/5/3,Chicago White Sox,Minnesota
+2015/5/3,Seattle,Houston
+2015/5/3,Pittsburgh,St. Louis
+2015/5/3,Milwaukee,Chicago Cubs
+2015/5/3,Oakland,Texas
+2015/5/3,LA Angels,San Francisco
+2015/5/3,Arizona,LA Dodgers
+2015/5/3,Colorado,San Diego
+2015/5/3,NY Yankees,Boston
+2015/5/4,Miami,Washington
+2015/5/4,NY Yankees,Toronto
+2015/5/4,Tampa Bay,Boston
+2015/5/4,Philadelphia,Atlanta
+2015/5/4,LA Dodgers,Milwaukee
+2015/5/4,Oakland,Minnesota
+2015/5/4,Texas,Houston
+2015/5/4,Chicago Cubs,St. Louis
+2015/5/4,Arizona,Colorado
+2015/5/4,Seattle,LA Angels
+2015/5/4,San Diego,San Francisco
+2015/5/5,Miami,Washington
+2015/5/5,Cincinnati,Pittsburgh
+2015/5/5,NY Yankees,Toronto
+2015/5/5,Tampa Bay,Boston
+2015/5/5,Philadelphia,Atlanta
+2015/5/5,Baltimore,NY Mets
+2015/5/5,Detroit,Chicago White Sox
+2015/5/5,Cleveland,Kansas City
+2015/5/5,LA Dodgers,Milwaukee
+2015/5/5,Oakland,Minnesota
+2015/5/5,Texas,Houston
+2015/5/5,Chicago Cubs,St. Louis
+2015/5/5,Arizona,Colorado
+2015/5/5,Seattle,LA Angels
+2015/5/5,San Diego,San Francisco
+2015/5/6,Miami,Washington
+2015/5/6,Arizona,Colorado
+2015/5/6,San Diego,San Francisco
+2015/5/6,Cincinnati,Pittsburgh
+2015/5/6,NY Yankees,Toronto
+2015/5/6,Tampa Bay,Boston
+2015/5/6,Philadelphia,Atlanta
+2015/5/6,Baltimore,NY Mets
+2015/5/6,Detroit,Chicago White Sox
+2015/5/6,Cleveland,Kansas City
+2015/5/6,LA Dodgers,Milwaukee
+2015/5/6,Oakland,Minnesota
+2015/5/6,Texas,Houston
+2015/5/6,Chicago Cubs,St. Louis
+2015/5/6,Seattle,LA Angels
+2015/5/7,Oakland,Minnesota
+2015/5/7,LA Dodgers,Milwaukee
+2015/5/7,Chicago Cubs,St. Louis
+2015/5/7,Detroit,Chicago White Sox
+2015/5/7,Cleveland,Kansas City
+2015/5/7,Baltimore,NY Yankees
+2015/5/7,Cincinnati,Pittsburgh
+2015/5/7,Texas,Tampa Bay
+2015/5/7,San Diego,Arizona
+2015/5/7,Houston,LA Angels
+2015/5/7,Miami,San Francisco
+2015/5/8,Minnesota,Cleveland
+2015/5/8,Baltimore,NY Yankees
+2015/5/8,Atlanta,Washington
+2015/5/8,NY Mets,Philadelphia
+2015/5/8,St. Louis,Pittsburgh
+2015/5/8,Boston,Toronto
+2015/5/8,Kansas City,Detroit
+2015/5/8,Texas,Tampa Bay
+2015/5/8,Cincinnati,Chicago White Sox
+2015/5/8,Chicago Cubs,Milwaukee
+2015/5/8,LA Dodgers,Colorado
+2015/5/8,San Diego,Arizona
+2015/5/8,Houston,LA Angels
+2015/5/8,Oakland,Seattle
+2015/5/8,Miami,San Francisco
+2015/5/9,Baltimore,NY Yankees
+2015/5/9,Boston,Toronto
+2015/5/9,Kansas City,Detroit
+2015/5/9,Minnesota,Cleveland
+2015/5/9,Atlanta,Washington
+2015/5/9,Texas,Tampa Bay
+2015/5/9,NY Mets,Philadelphia
+2015/5/9,St. Louis,Pittsburgh
+2015/5/9,Cincinnati,Chicago White Sox
+2015/5/9,Chicago Cubs,Milwaukee
+2015/5/9,LA Dodgers,Colorado
+2015/5/9,San Diego,Arizona
+2015/5/9,Houston,LA Angels
+2015/5/9,Miami,San Francisco
+2015/5/9,Oakland,Seattle
+2015/5/10,Minnesota,Cleveland
+2015/5/10,Baltimore,NY Yankees
+2015/5/10,Boston,Toronto
+2015/5/10,Texas,Tampa Bay
+2015/5/10,Atlanta,Washington
+2015/5/10,NY Mets,Philadelphia
+2015/5/10,St. Louis,Pittsburgh
+2015/5/10,Cincinnati,Chicago White Sox
+2015/5/10,Chicago Cubs,Milwaukee
+2015/5/10,Houston,LA Angels
+2015/5/10,Miami,San Francisco
+2015/5/10,Oakland,Seattle
+2015/5/10,LA Dodgers,Colorado
+2015/5/10,San Diego,Arizona
+2015/5/10,Kansas City,Detroit
+2015/5/11,Toronto,Baltimore
+2015/5/11,Pittsburgh,Philadelphia
+2015/5/11,Atlanta,Cincinnati
+2015/5/11,NY Yankees,Tampa Bay
+2015/5/11,Chicago White Sox,Milwaukee
+2015/5/11,Kansas City,Texas
+2015/5/11,NY Mets,Chicago Cubs
+2015/5/11,Washington,Arizona
+2015/5/11,Boston,Oakland
+2015/5/11,Miami,LA Dodgers
+2015/5/12,St. Louis,Cleveland
+2015/5/12,Toronto,Baltimore
+2015/5/12,Pittsburgh,Philadelphia
+2015/5/12,Minnesota,Detroit
+2015/5/12,Atlanta,Cincinnati
+2015/5/12,NY Yankees,Tampa Bay
+2015/5/12,Kansas City,Texas
+2015/5/12,NY Mets,Chicago Cubs
+2015/5/12,Chicago White Sox,Milwaukee
+2015/5/12,San Francisco,Houston
+2015/5/12,Washington,Arizona
+2015/5/12,Colorado,LA Angels
+2015/5/12,Boston,Oakland
+2015/5/12,San Diego,Seattle
+2015/5/12,Miami,LA Dodgers
+2015/5/13,Boston,Oakland
+2015/5/13,Washington,Arizona
+2015/5/13,St. Louis,Cleveland
+2015/5/13,Toronto,Baltimore
+2015/5/13,Pittsburgh,Philadelphia
+2015/5/13,Minnesota,Detroit
+2015/5/13,Atlanta,Cincinnati
+2015/5/13,NY Yankees,Tampa Bay
+2015/5/13,Miami,LA Dodgers
+2015/5/13,Kansas City,Texas
+2015/5/13,NY Mets,Chicago Cubs
+2015/5/13,Chicago White Sox,Milwaukee
+2015/5/13,San Francisco,Houston
+2015/5/13,Colorado,LA Angels
+2015/5/13,San Diego,Seattle
+2015/5/14,St. Louis,Cleveland
+2015/5/14,Pittsburgh,Philadelphia
+2015/5/14,Minnesota,Detroit
+2015/5/14,Kansas City,Texas
+2015/5/14,NY Mets,Chicago Cubs
+2015/5/14,San Francisco,Cincinnati
+2015/5/14,NY Yankees,Tampa Bay
+2015/5/14,Toronto,Houston
+2015/5/14,Boston,Seattle
+2015/5/14,Colorado,LA Dodgers
+2015/5/14,Washington,San Diego
+2015/5/15,Pittsburgh,Chicago Cubs
+2015/5/15,LA Angels,Baltimore
+2015/5/15,Arizona,Philadelphia
+2015/5/15,San Francisco,Cincinnati
+2015/5/15,Milwaukee,NY Mets
+2015/5/15,Atlanta,Miami
+2015/5/15,Cleveland,Texas
+2015/5/15,NY Yankees,Kansas City
+2015/5/15,Tampa Bay,Minnesota
+2015/5/15,Toronto,Houston
+2015/5/15,Detroit,St. Louis
+2015/5/15,Chicago White Sox,Oakland
+2015/5/15,Boston,Seattle
+2015/5/15,Colorado,LA Dodgers
+2015/5/15,Washington,San Diego
+2015/5/16,Atlanta,Miami
+2015/5/16,Tampa Bay,Minnesota
+2015/5/16,Detroit,St. Louis
+2015/5/16,Pittsburgh,Chicago Cubs
+2015/5/16,LA Angels,Baltimore
+2015/5/16,Arizona,Philadelphia
+2015/5/16,NY Yankees,Kansas City
+2015/5/16,San Francisco,Cincinnati
+2015/5/16,Toronto,Houston
+2015/5/16,Milwaukee,NY Mets
+2015/5/16,Cleveland,Texas
+2015/5/16,Washington,San Diego
+2015/5/16,Chicago White Sox,Oakland
+2015/5/16,Boston,Seattle
+2015/5/16,Colorado,LA Dodgers
+2015/5/17,San Francisco,Cincinnati
+2015/5/17,Milwaukee,NY Mets
+2015/5/17,Atlanta,Miami
+2015/5/17,LA Angels,Baltimore
+2015/5/17,Arizona,Philadelphia
+2015/5/17,NY Yankees,Kansas City
+2015/5/17,Tampa Bay,Minnesota
+2015/5/17,Toronto,Houston
+2015/5/17,Pittsburgh,Chicago Cubs
+2015/5/17,Cleveland,Texas
+2015/5/17,Chicago White Sox,Oakland
+2015/5/17,Boston,Seattle
+2015/5/17,Colorado,LA Dodgers
+2015/5/17,Washington,San Diego
+2015/5/17,Detroit,St. Louis
+2015/5/18,LA Angels,Toronto
+2015/5/18,Milwaukee,Detroit
+2015/5/18,St. Louis,NY Mets
+2015/5/18,Arizona,Miami
+2015/5/18,Cleveland,Chicago White Sox
+2015/5/18,Oakland,Houston
+2015/5/18,Philadelphia,Colorado
+2015/5/19,Seattle,Baltimore
+2015/5/19,NY Yankees,Washington
+2015/5/19,Minnesota,Pittsburgh
+2015/5/19,LA Angels,Toronto
+2015/5/19,Milwaukee,Detroit
+2015/5/19,Texas,Boston
+2015/5/19,Tampa Bay,Atlanta
+2015/5/19,St. Louis,NY Mets
+2015/5/19,Arizona,Miami
+2015/5/19,Cleveland,Chicago White Sox
+2015/5/19,Cincinnati,Kansas City
+2015/5/19,Oakland,Houston
+2015/5/19,Philadelphia,Colorado
+2015/5/19,Chicago Cubs,San Diego
+2015/5/19,LA Dodgers,San Francisco
+2015/5/20,Oakland,Houston
+2015/5/20,Seattle,Baltimore
+2015/5/20,NY Yankees,Washington
+2015/5/20,Minnesota,Pittsburgh
+2015/5/20,LA Angels,Toronto
+2015/5/20,Milwaukee,Detroit
+2015/5/20,Texas,Boston
+2015/5/20,Tampa Bay,Atlanta
+2015/5/20,St. Louis,NY Mets
+2015/5/20,Arizona,Miami
+2015/5/20,Cleveland,Chicago White Sox
+2015/5/20,Cincinnati,Kansas City
+2015/5/20,Philadelphia,Colorado
+2015/5/20,Chicago Cubs,San Diego
+2015/5/20,LA Dodgers,San Francisco
+2015/5/21,Arizona,Miami
+2015/5/21,Seattle,Baltimore
+2015/5/21,Houston,Detroit
+2015/5/21,St. Louis,NY Mets
+2015/5/21,Philadelphia,Colorado
+2015/5/21,LA Dodgers,San Francisco
+2015/5/21,LA Angels,Toronto
+2015/5/21,Texas,Boston
+2015/5/21,Milwaukee,Atlanta
+2015/5/21,Oakland,Tampa Bay
+2015/5/21,Cleveland,Chicago White Sox
+2015/5/21,Chicago Cubs,San Diego
+2015/5/22,Cincinnati,Cleveland
+2015/5/22,Texas,NY Yankees
+2015/5/22,Philadelphia,Washington
+2015/5/22,NY Mets,Pittsburgh
+2015/5/22,Seattle,Toronto
+2015/5/22,Houston,Detroit
+2015/5/22,LA Angels,Boston
+2015/5/22,Baltimore,Miami
+2015/5/22,Oakland,Tampa Bay
+2015/5/22,Milwaukee,Atlanta
+2015/5/22,Minnesota,Chicago White Sox
+2015/5/22,St. Louis,Kansas City
+2015/5/22,San Francisco,Colorado
+2015/5/22,Chicago Cubs,Arizona
+2015/5/22,San Diego,LA Dodgers
+2015/5/23,Texas,NY Yankees
+2015/5/23,Seattle,Toronto
+2015/5/23,Cincinnati,Cleveland
+2015/5/23,Philadelphia,Washington
+2015/5/23,NY Mets,Pittsburgh
+2015/5/23,Minnesota,Chicago White Sox
+2015/5/23,Milwaukee,Atlanta
+2015/5/23,San Francisco,Colorado
+2015/5/23,Oakland,Tampa Bay
+2015/5/23,Houston,Detroit
+2015/5/23,LA Angels,Boston
+2015/5/23,St. Louis,Kansas City
+2015/5/23,Baltimore,Miami
+2015/5/23,San Diego,LA Dodgers
+2015/5/23,Chicago Cubs,Arizona
+2015/5/24,Cincinnati,Cleveland
+2015/5/24,Seattle,Toronto
+2015/5/24,Houston,Detroit
+2015/5/24,Baltimore,Miami
+2015/5/24,Oakland,Tampa Bay
+2015/5/24,LA Angels,Boston
+2015/5/24,Milwaukee,Atlanta
+2015/5/24,Philadelphia,Washington
+2015/5/24,NY Mets,Pittsburgh
+2015/5/24,Minnesota,Chicago White Sox
+2015/5/24,St. Louis,Kansas City
+2015/5/24,San Diego,LA Dodgers
+2015/5/24,San Francisco,Colorado
+2015/5/24,Chicago Cubs,Arizona
+2015/5/24,Texas,NY Yankees
+2015/5/25,Kansas City,NY Yankees
+2015/5/25,Colorado,Cincinnati
+2015/5/25,Philadelphia,NY Mets
+2015/5/25,Houston,Baltimore
+2015/5/25,San Francisco,Milwaukee
+2015/5/25,Boston,Minnesota
+2015/5/25,Washington,Chicago Cubs
+2015/5/25,Texas,Cleveland
+2015/5/25,Arizona,St. Louis
+2015/5/25,Detroit,Oakland
+2015/5/25,Miami,Pittsburgh
+2015/5/25,Chicago White Sox,Toronto
+2015/5/25,Seattle,Tampa Bay
+2015/5/25,Atlanta,LA Dodgers
+2015/5/25,San Diego,LA Angels
+2015/5/26,Houston,Baltimore
+2015/5/26,Texas,Cleveland
+2015/5/26,Kansas City,NY Yankees
+2015/5/26,Washington,Chicago Cubs
+2015/5/26,Miami,Pittsburgh
+2015/5/26,Chicago White Sox,Toronto
+2015/5/26,Colorado,Cincinnati
+2015/5/26,Philadelphia,NY Mets
+2015/5/26,Seattle,Tampa Bay
+2015/5/26,San Francisco,Milwaukee
+2015/5/26,Boston,Minnesota
+2015/5/26,Arizona,St. Louis
+2015/5/26,San Diego,LA Angels
+2015/5/26,Detroit,Oakland
+2015/5/26,Atlanta,LA Dodgers
+2015/5/27,Texas,Cleveland
+2015/5/27,Colorado,Cincinnati
+2015/5/27,Miami,Pittsburgh
+2015/5/27,Kansas City,NY Yankees
+2015/5/27,Boston,Minnesota
+2015/5/27,Philadelphia,NY Mets
+2015/5/27,Seattle,Tampa Bay
+2015/5/27,San Francisco,Milwaukee
+2015/5/27,Detroit,Oakland
+2015/5/27,Houston,Baltimore
+2015/5/27,Chicago White Sox,Toronto
+2015/5/27,Washington,Chicago Cubs
+2015/5/27,Arizona,St. Louis
+2015/5/27,San Diego,LA Angels
+2015/5/27,Atlanta,LA Dodgers
+2015/5/28,Boston,Texas
+2015/5/28,Detroit,LA Angels
+2015/5/28,NY Yankees,Oakland
+2015/5/28,Cleveland,Seattle
+2015/5/28,Pittsburgh,San Diego
+2015/5/28,Atlanta,San Francisco
+2015/5/29,Kansas City,Chicago Cubs
+2015/5/29,Tampa Bay,Baltimore
+2015/5/29,Colorado,Philadelphia
+2015/5/29,Washington,Cincinnati
+2015/5/29,Miami,NY Mets
+2015/5/29,Boston,Texas
+2015/5/29,Arizona,Milwaukee
+2015/5/29,Toronto,Minnesota
+2015/5/29,Chicago White Sox,Houston
+2015/5/29,LA Dodgers,St. Louis
+2015/5/29,Detroit,LA Angels
+2015/5/29,NY Yankees,Oakland
+2015/5/29,Cleveland,Seattle
+2015/5/29,Pittsburgh,San Diego
+2015/5/29,Atlanta,San Francisco
+2015/5/30,Toronto,Minnesota
+2015/5/30,Colorado,Philadelphia
+2015/5/30,Tampa Bay,Baltimore
+2015/5/30,Arizona,Milwaukee
+2015/5/30,Washington,Cincinnati
+2015/5/30,Chicago White Sox,Houston
+2015/5/30,Miami,NY Mets
+2015/5/30,Boston,Texas
+2015/5/30,Kansas City,Chicago Cubs
+2015/5/30,LA Dodgers,St. Louis
+2015/5/30,Detroit,LA Angels
+2015/5/30,NY Yankees,Oakland
+2015/5/30,Atlanta,San Francisco
+2015/5/30,Cleveland,Seattle
+2015/5/30,Pittsburgh,San Diego
+2015/5/31,Pittsburgh,San Diego
+2015/5/31,Washington,Cincinnati
+2015/5/31,Miami,NY Mets
+2015/5/31,Tampa Bay,Baltimore
+2015/5/31,Colorado,Philadelphia
+2015/5/31,Arizona,Milwaukee
+2015/5/31,Toronto,Minnesota
+2015/5/31,Chicago White Sox,Houston
+2015/5/31,LA Dodgers,St. Louis
+2015/5/31,Kansas City,Chicago Cubs
+2015/5/31,Boston,Texas
+2015/5/31,NY Yankees,Oakland
+2015/5/31,Atlanta,San Francisco
+2015/5/31,Cleveland,Seattle
+2015/5/31,Detroit,LA Angels
+2015/6/1,Toronto,Washington
+2015/6/1,Minnesota,Boston
+2015/6/1,Chicago Cubs,Miami
+2015/6/1,Baltimore,Houston
+2015/6/1,Milwaukee,St. Louis
+2015/6/1,LA Dodgers,Colorado
+2015/6/1,Atlanta,Arizona
+2015/6/1,Tampa Bay,LA Angels
+2015/6/1,NY Yankees,Seattle
+2015/6/1,NY Mets,San Diego
+2015/6/1,Pittsburgh,San Francisco
+2015/6/2,Toronto,Washington
+2015/6/2,Cincinnati,Philadelphia
+2015/6/2,Oakland,Detroit
+2015/6/2,Minnesota,Boston
+2015/6/2,Chicago Cubs,Miami
+2015/6/2,Chicago White Sox,Texas
+2015/6/2,Cleveland,Kansas City
+2015/6/2,Baltimore,Houston
+2015/6/2,Milwaukee,St. Louis
+2015/6/2,LA Dodgers,Colorado
+2015/6/2,Atlanta,Arizona
+2015/6/2,Tampa Bay,LA Angels
+2015/6/2,NY Yankees,Seattle
+2015/6/2,NY Mets,San Diego
+2015/6/2,Pittsburgh,San Francisco
+2015/6/3,Milwaukee,St. Louis
+2015/6/3,NY Yankees,Seattle
+2015/6/3,Atlanta,Arizona
+2015/6/3,Pittsburgh,San Francisco
+2015/6/3,Toronto,Washington
+2015/6/3,Cincinnati,Philadelphia
+2015/6/3,Oakland,Detroit
+2015/6/3,Minnesota,Boston
+2015/6/3,Chicago Cubs,Miami
+2015/6/3,Chicago White Sox,Texas
+2015/6/3,Cleveland,Kansas City
+2015/6/3,Baltimore,Houston
+2015/6/3,LA Dodgers,Colorado
+2015/6/3,NY Mets,San Diego
+2015/6/3,Tampa Bay,LA Angels
+2015/6/4,Oakland,Detroit
+2015/6/4,Baltimore,Houston
+2015/6/4,Minnesota,Boston
+2015/6/4,Chicago Cubs,Washington
+2015/6/4,Cincinnati,Philadelphia
+2015/6/4,Chicago White Sox,Texas
+2015/6/4,Cleveland,Kansas City
+2015/6/4,NY Mets,Arizona
+2015/6/4,Tampa Bay,Seattle
+2015/6/4,St. Louis,LA Dodgers
+2015/6/5,Baltimore,Cleveland
+2015/6/5,LA Angels,NY Yankees
+2015/6/5,Chicago Cubs,Washington
+2015/6/5,San Francisco,Philadelphia
+2015/6/5,Houston,Toronto
+2015/6/5,Oakland,Boston
+2015/6/5,San Diego,Cincinnati
+2015/6/5,Pittsburgh,Atlanta
+2015/6/5,Detroit,Chicago White Sox
+2015/6/5,Texas,Kansas City
+2015/6/5,Milwaukee,Minnesota
+2015/6/5,Miami,Colorado
+2015/6/5,NY Mets,Arizona
+2015/6/5,Tampa Bay,Seattle
+2015/6/5,St. Louis,LA Dodgers
+2015/6/6,Chicago Cubs,Washington
+2015/6/6,Houston,Toronto
+2015/6/6,Texas,Kansas City
+2015/6/6,Milwaukee,Minnesota
+2015/6/6,San Francisco,Philadelphia
+2015/6/6,Oakland,Boston
+2015/6/6,Baltimore,Cleveland
+2015/6/6,San Diego,Cincinnati
+2015/6/6,Miami,Colorado
+2015/6/6,Pittsburgh,Atlanta
+2015/6/6,Detroit,Chicago White Sox
+2015/6/6,LA Angels,NY Yankees
+2015/6/6,Tampa Bay,Seattle
+2015/6/6,St. Louis,LA Dodgers
+2015/6/6,NY Mets,Arizona
+2015/6/7,St. Louis,LA Dodgers
+2015/6/7,Baltimore,Cleveland
+2015/6/7,LA Angels,NY Yankees
+2015/6/7,Houston,Toronto
+2015/6/7,San Diego,Cincinnati
+2015/6/7,Oakland,Boston
+2015/6/7,Pittsburgh,Atlanta
+2015/6/7,San Francisco,Philadelphia
+2015/6/7,Detroit,Chicago White Sox
+2015/6/7,Texas,Kansas City
+2015/6/7,Milwaukee,Minnesota
+2015/6/7,Chicago Cubs,Washington
+2015/6/7,Tampa Bay,Seattle
+2015/6/7,Miami,Colorado
+2015/6/7,NY Mets,Arizona
+2015/6/8,Milwaukee,Pittsburgh
+2015/6/8,Miami,Toronto
+2015/6/8,San Diego,Atlanta
+2015/6/8,Philadelphia,Cincinnati
+2015/6/8,Houston,Chicago White Sox
+2015/6/8,Kansas City,Minnesota
+2015/6/8,St. Louis,Colorado
+2015/6/8,Arizona,LA Dodgers
+2015/6/9,Boston,Baltimore
+2015/6/9,Seattle,Cleveland
+2015/6/9,Washington,NY Yankees
+2015/6/9,Milwaukee,Pittsburgh
+2015/6/9,Miami,Toronto
+2015/6/9,Chicago Cubs,Detroit
+2015/6/9,San Diego,Atlanta
+2015/6/9,Philadelphia,Cincinnati
+2015/6/9,San Francisco,NY Mets
+2015/6/9,LA Angels,Tampa Bay
+2015/6/9,Houston,Chicago White Sox
+2015/6/9,Kansas City,Minnesota
+2015/6/9,St. Louis,Colorado
+2015/6/9,Texas,Oakland
+2015/6/9,Arizona,LA Dodgers
+2015/6/10,Philadelphia,Cincinnati
+2015/6/10,Miami,Toronto
+2015/6/10,Washington,NY Yankees
+2015/6/10,St. Louis,Colorado
+2015/6/10,Boston,Baltimore
+2015/6/10,Seattle,Cleveland
+2015/6/10,Milwaukee,Pittsburgh
+2015/6/10,Chicago Cubs,Detroit
+2015/6/10,San Diego,Atlanta
+2015/6/10,San Francisco,NY Mets
+2015/6/10,LA Angels,Tampa Bay
+2015/6/10,Houston,Chicago White Sox
+2015/6/10,Kansas City,Minnesota
+2015/6/10,Texas,Oakland
+2015/6/10,Arizona,LA Dodgers
+2015/6/11,Seattle,Cleveland
+2015/6/11,San Diego,Atlanta
+2015/6/11,Texas,Oakland
+2015/6/11,Boston,Baltimore
+2015/6/11,San Francisco,NY Mets
+2015/6/11,Colorado,Miami
+2015/6/11,LA Angels,Tampa Bay
+2015/6/11,Cincinnati,Chicago Cubs
+2015/6/11,Washington,Milwaukee
+2015/6/12,Cincinnati,Chicago Cubs
+2015/6/12,NY Yankees,Baltimore
+2015/6/12,Philadelphia,Pittsburgh
+2015/6/12,Cleveland,Detroit
+2015/6/12,Toronto,Boston
+2015/6/12,Atlanta,NY Mets
+2015/6/12,Colorado,Miami
+2015/6/12,Chicago White Sox,Tampa Bay
+2015/6/12,Minnesota,Texas
+2015/6/12,Washington,Milwaukee
+2015/6/12,Seattle,Houston
+2015/6/12,Kansas City,St. Louis
+2015/6/12,Oakland,LA Angels
+2015/6/12,LA Dodgers,San Diego
+2015/6/12,Arizona,San Francisco
+2015/6/13,Toronto,Boston
+2015/6/13,Minnesota,Texas
+2015/6/13,Philadelphia,Pittsburgh
+2015/6/13,Washington,Milwaukee
+2015/6/13,Seattle,Houston
+2015/6/13,Atlanta,NY Mets
+2015/6/13,Kansas City,St. Louis
+2015/6/13,Colorado,Miami
+2015/6/13,Chicago White Sox,Tampa Bay
+2015/6/13,Cleveland,Detroit
+2015/6/13,NY Yankees,Baltimore
+2015/6/13,Cincinnati,Chicago Cubs
+2015/6/13,Arizona,San Francisco
+2015/6/13,Oakland,LA Angels
+2015/6/13,LA Dodgers,San Diego
+2015/6/14,Oakland,LA Angels
+2015/6/14,Cincinnati,Chicago Cubs
+2015/6/14,Cleveland,Detroit
+2015/6/14,Atlanta,NY Mets
+2015/6/14,Colorado,Miami
+2015/6/14,Chicago White Sox,Tampa Bay
+2015/6/14,NY Yankees,Baltimore
+2015/6/14,Toronto,Boston
+2015/6/14,Philadelphia,Pittsburgh
+2015/6/14,Washington,Milwaukee
+2015/6/14,Seattle,Houston
+2015/6/14,Kansas City,St. Louis
+2015/6/14,Minnesota,Texas
+2015/6/14,Arizona,San Francisco
+2015/6/14,LA Dodgers,San Diego
+2015/6/15,Philadelphia,Baltimore
+2015/6/15,Chicago White Sox,Pittsburgh
+2015/6/15,Cincinnati,Detroit
+2015/6/15,Atlanta,Boston
+2015/6/15,Toronto,NY Mets
+2015/6/15,NY Yankees,Miami
+2015/6/15,Washington,Tampa Bay
+2015/6/15,LA Dodgers,Texas
+2015/6/15,Cleveland,Chicago Cubs
+2015/6/15,Kansas City,Milwaukee
+2015/6/15,Colorado,Houston
+2015/6/15,Minnesota,St. Louis
+2015/6/15,Arizona,LA Angels
+2015/6/15,Oakland,San Diego
+2015/6/15,Seattle,San Francisco
+2015/6/16,Minnesota,St. Louis
+2015/6/16,Colorado,Houston
+2015/6/16,Oakland,San Diego
+2015/6/16,Seattle,San Francisco
+2015/6/16,Atlanta,Boston
+2015/6/16,Philadelphia,Baltimore
+2015/6/16,Chicago White Sox,Pittsburgh
+2015/6/16,Cincinnati,Detroit
+2015/6/16,Toronto,NY Mets
+2015/6/16,NY Yankees,Miami
+2015/6/16,Washington,Tampa Bay
+2015/6/16,LA Dodgers,Texas
+2015/6/16,Cleveland,Chicago Cubs
+2015/6/16,Kansas City,Milwaukee
+2015/6/16,Arizona,LA Angels
+2015/6/17,Chicago Cubs,Cleveland
+2015/6/17,Miami,NY Yankees
+2015/6/17,Tampa Bay,Washington
+2015/6/17,Baltimore,Philadelphia
+2015/6/17,NY Mets,Toronto
+2015/6/17,Boston,Atlanta
+2015/6/17,Detroit,Cincinnati
+2015/6/17,Pittsburgh,Chicago White Sox
+2015/6/17,Milwaukee,Kansas City
+2015/6/17,St. Louis,Minnesota
+2015/6/17,Houston,Colorado
+2015/6/17,LA Angels,Arizona
+2015/6/17,San Diego,Oakland
+2015/6/17,San Francisco,Seattle
+2015/6/17,Texas,LA Dodgers
+2015/6/18,Baltimore,Philadelphia
+2015/6/18,St. Louis,Minnesota
+2015/6/18,Houston,Colorado
+2015/6/18,San Diego,Oakland
+2015/6/18,LA Angels,Arizona
+2015/6/18,Chicago Cubs,Cleveland
+2015/6/18,Miami,NY Yankees
+2015/6/18,Tampa Bay,Washington
+2015/6/18,NY Mets,Toronto
+2015/6/18,Boston,Atlanta
+2015/6/18,Detroit,Cincinnati
+2015/6/18,Pittsburgh,Chicago White Sox
+2015/6/18,Milwaukee,Kansas City
+2015/6/18,San Francisco,Seattle
+2015/6/18,Texas,LA Dodgers
+2015/6/19,Tampa Bay,Cleveland
+2015/6/19,Detroit,NY Yankees
+2015/6/19,Pittsburgh,Washington
+2015/6/19,St. Louis,Philadelphia
+2015/6/19,Baltimore,Toronto
+2015/6/19,Miami,Cincinnati
+2015/6/19,NY Mets,Atlanta
+2015/6/19,Texas,Chicago White Sox
+2015/6/19,Boston,Kansas City
+2015/6/19,Chicago Cubs,Minnesota
+2015/6/19,Milwaukee,Colorado
+2015/6/19,LA Angels,Oakland
+2015/6/19,San Diego,Arizona
+2015/6/19,Houston,Seattle
+2015/6/19,San Francisco,LA Dodgers
+2015/6/20,Baltimore,Toronto
+2015/6/20,Texas,Chicago White Sox
+2015/6/20,Chicago Cubs,Minnesota
+2015/6/20,St. Louis,Philadelphia
+2015/6/20,LA Angels,Oakland
+2015/6/20,Pittsburgh,Washington
+2015/6/20,NY Mets,Atlanta
+2015/6/20,Miami,Cincinnati
+2015/6/20,Milwaukee,Colorado
+2015/6/20,Tampa Bay,Cleveland
+2015/6/20,Boston,Kansas City
+2015/6/20,Detroit,NY Yankees
+2015/6/20,San Francisco,LA Dodgers
+2015/6/20,Houston,Seattle
+2015/6/20,San Diego,Arizona
+2015/6/21,Detroit,NY Yankees
+2015/6/21,San Francisco,LA Dodgers
+2015/6/21,Tampa Bay,Cleveland
+2015/6/21,Baltimore,Toronto
+2015/6/21,Miami,Cincinnati
+2015/6/21,Pittsburgh,Washington
+2015/6/21,St. Louis,Philadelphia
+2015/6/21,Texas,Chicago White Sox
+2015/6/21,Boston,Kansas City
+2015/6/21,Chicago Cubs,Minnesota
+2015/6/21,LA Angels,Oakland
+2015/6/21,Houston,Seattle
+2015/6/21,Milwaukee,Colorado
+2015/6/21,San Diego,Arizona
+2015/6/21,NY Mets,Atlanta
+2015/6/22,Detroit,Cleveland
+2015/6/22,Philadelphia,NY Yankees
+2015/6/22,Toronto,Tampa Bay
+2015/6/22,LA Dodgers,Chicago Cubs
+2015/6/22,Chicago White Sox,Minnesota
+2015/6/22,Houston,LA Angels
+2015/6/22,Kansas City,Seattle
+2015/6/23,Detroit,Cleveland
+2015/6/23,Philadelphia,NY Yankees
+2015/6/23,Atlanta,Washington
+2015/6/23,Cincinnati,Pittsburgh
+2015/6/23,Baltimore,Boston
+2015/6/23,St. Louis,Miami
+2015/6/23,Toronto,Tampa Bay
+2015/6/23,Oakland,Texas
+2015/6/23,LA Dodgers,Chicago Cubs
+2015/6/23,NY Mets,Milwaukee
+2015/6/23,Chicago White Sox,Minnesota
+2015/6/23,Arizona,Colorado
+2015/6/23,Houston,LA Angels
+2015/6/23,Kansas City,Seattle
+2015/6/23,San Diego,San Francisco
+2015/6/24,Detroit,Cleveland
+2015/6/24,Toronto,Tampa Bay
+2015/6/24,Philadelphia,NY Yankees
+2015/6/24,Chicago White Sox,Minnesota
+2015/6/24,Houston,LA Angels
+2015/6/24,Atlanta,Washington
+2015/6/24,Cincinnati,Pittsburgh
+2015/6/24,Baltimore,Boston
+2015/6/24,St. Louis,Miami
+2015/6/24,Oakland,Texas
+2015/6/24,LA Dodgers,Chicago Cubs
+2015/6/24,NY Mets,Milwaukee
+2015/6/24,Arizona,Colorado
+2015/6/24,Kansas City,Seattle
+2015/6/24,San Diego,San Francisco
+2015/6/25,Chicago White Sox,Detroit
+2015/6/25,Baltimore,Boston
+2015/6/25,Oakland,Texas
+2015/6/25,NY Mets,Milwaukee
+2015/6/25,LA Dodgers,Chicago Cubs
+2015/6/25,Arizona,Colorado
+2015/6/25,Atlanta,Washington
+2015/6/25,Cincinnati,Pittsburgh
+2015/6/25,St. Louis,Miami
+2015/6/25,NY Yankees,Houston
+2015/6/25,San Diego,San Francisco
+2015/6/26,Cleveland,Baltimore
+2015/6/26,Washington,Philadelphia
+2015/6/26,Atlanta,Pittsburgh
+2015/6/26,Texas,Toronto
+2015/6/26,Chicago White Sox,Detroit
+2015/6/26,Cincinnati,NY Mets
+2015/6/26,LA Dodgers,Miami
+2015/6/26,Boston,Tampa Bay
+2015/6/26,Minnesota,Milwaukee
+2015/6/26,NY Yankees,Houston
+2015/6/26,Chicago Cubs,St. Louis
+2015/6/26,Seattle,LA Angels
+2015/6/26,Kansas City,Oakland
+2015/6/26,Arizona,San Diego
+2015/6/26,Colorado,San Francisco
+2015/6/27,Texas,Toronto
+2015/6/27,Minnesota,Milwaukee
+2015/6/27,Washington,Philadelphia
+2015/6/27,Kansas City,Oakland
+2015/6/27,Atlanta,Pittsburgh
+2015/6/27,Colorado,San Francisco
+2015/6/27,NY Yankees,Houston
+2015/6/27,Cincinnati,NY Mets
+2015/6/27,LA Dodgers,Miami
+2015/6/27,Boston,Tampa Bay
+2015/6/27,Chicago White Sox,Detroit
+2015/6/27,Cleveland,Baltimore
+2015/6/27,Seattle,LA Angels
+2015/6/27,Chicago Cubs,St. Louis
+2015/6/27,Arizona,San Diego
+2015/6/28,Texas,Toronto
+2015/6/28,Chicago White Sox,Detroit
+2015/6/28,Cincinnati,NY Mets
+2015/6/28,LA Dodgers,Miami
+2015/6/28,Boston,Tampa Bay
+2015/6/28,Cleveland,Baltimore
+2015/6/28,Washington,Philadelphia
+2015/6/28,Atlanta,Pittsburgh
+2015/6/28,Minnesota,Milwaukee
+2015/6/28,NY Yankees,Houston
+2015/6/28,Chicago Cubs,St. Louis
+2015/6/28,Seattle,LA Angels
+2015/6/28,Kansas City,Oakland
+2015/6/28,Colorado,San Francisco
+2015/6/28,Arizona,San Diego
+2015/6/29,Texas,Baltimore
+2015/6/29,Milwaukee,Philadelphia
+2015/6/29,Boston,Toronto
+2015/6/29,Minnesota,Cincinnati
+2015/6/29,Cleveland,Tampa Bay
+2015/6/29,Kansas City,Houston
+2015/6/29,LA Dodgers,Arizona
+2015/6/29,NY Yankees,LA Angels
+2015/6/29,Colorado,Oakland
+2015/6/30,Texas,Baltimore
+2015/6/30,Milwaukee,Philadelphia
+2015/6/30,Boston,Toronto
+2015/6/30,Pittsburgh,Detroit
+2015/6/30,Washington,Atlanta
+2015/6/30,Minnesota,Cincinnati
+2015/6/30,Chicago Cubs,NY Mets
+2015/6/30,San Francisco,Miami
+2015/6/30,Cleveland,Tampa Bay
+2015/6/30,Kansas City,Houston
+2015/6/30,Chicago White Sox,St. Louis
+2015/6/30,LA Dodgers,Arizona
+2015/6/30,NY Yankees,LA Angels
+2015/6/30,Colorado,Oakland
+2015/6/30,Seattle,San Diego
+2015/7/1,Minnesota,Cincinnati
+2015/7/1,Boston,Toronto
+2015/7/1,Colorado,Oakland
+2015/7/1,Seattle,San Diego
+2015/7/1,Texas,Baltimore
+2015/7/1,NY Yankees,LA Angels
+2015/7/1,Milwaukee,Philadelphia
+2015/7/1,Pittsburgh,Detroit
+2015/7/1,Washington,Atlanta
+2015/7/1,Chicago Cubs,NY Mets
+2015/7/1,San Francisco,Miami
+2015/7/1,Cleveland,Tampa Bay
+2015/7/1,Kansas City,Houston
+2015/7/1,Chicago White Sox,St. Louis
+2015/7/1,LA Dodgers,Arizona
+2015/7/2,San Francisco,Miami
+2015/7/2,Cleveland,Tampa Bay
+2015/7/2,Pittsburgh,Detroit
+2015/7/2,Chicago Cubs,NY Mets
+2015/7/2,Milwaukee,Philadelphia
+2015/7/2,Texas,Baltimore
+2015/7/2,Boston,Toronto
+2015/7/2,Washington,Atlanta
+2015/7/2,San Diego,St. Louis
+2015/7/2,Minnesota,Kansas City
+2015/7/2,Colorado,Arizona
+2015/7/2,Seattle,Oakland
+2015/7/3,Miami,Chicago Cubs
+2015/7/3,San Francisco,Washington
+2015/7/3,Tampa Bay,NY Yankees
+2015/7/3,Cleveland,Pittsburgh
+2015/7/3,Toronto,Detroit
+2015/7/3,Houston,Boston
+2015/7/3,Milwaukee,Cincinnati
+2015/7/3,Philadelphia,Atlanta
+2015/7/3,LA Angels,Texas
+2015/7/3,Baltimore,Chicago White Sox
+2015/7/3,Minnesota,Kansas City
+2015/7/3,San Diego,St. Louis
+2015/7/3,Seattle,Oakland
+2015/7/3,Colorado,Arizona
+2015/7/3,NY Mets,LA Dodgers
+2015/7/4,San Francisco,Washington
+2015/7/4,Tampa Bay,NY Yankees
+2015/7/4,Toronto,Detroit
+2015/7/4,Houston,Boston
+2015/7/4,Baltimore,Chicago White Sox
+2015/7/4,San Diego,St. Louis
+2015/7/4,Seattle,Oakland
+2015/7/4,Cleveland,Pittsburgh
+2015/7/4,Minnesota,Kansas City
+2015/7/4,Philadelphia,Atlanta
+2015/7/4,Miami,Chicago Cubs
+2015/7/4,Milwaukee,Cincinnati
+2015/7/4,NY Mets,LA Dodgers
+2015/7/4,LA Angels,Texas
+2015/7/4,Colorado,Arizona
+2015/7/5,LA Angels,Texas
+2015/7/5,Miami,Chicago Cubs
+2015/7/5,Tampa Bay,NY Yankees
+2015/7/5,Toronto,Detroit
+2015/7/5,Milwaukee,Cincinnati
+2015/7/5,Houston,Boston
+2015/7/5,Philadelphia,Atlanta
+2015/7/5,San Francisco,Washington
+2015/7/5,Cleveland,Pittsburgh
+2015/7/5,Baltimore,Chicago White Sox
+2015/7/5,Minnesota,Kansas City
+2015/7/5,San Diego,St. Louis
+2015/7/5,Seattle,Oakland
+2015/7/5,NY Mets,LA Dodgers
+2015/7/5,Colorado,Arizona
+2015/7/6,Houston,Cleveland
+2015/7/6,Cincinnati,Washington
+2015/7/6,San Diego,Pittsburgh
+2015/7/6,St. Louis,Chicago Cubs
+2015/7/6,Toronto,Chicago White Sox
+2015/7/6,Tampa Bay,Kansas City
+2015/7/6,Atlanta,Milwaukee
+2015/7/6,Baltimore,Minnesota
+2015/7/6,Detroit,Seattle
+2015/7/6,Philadelphia,LA Dodgers
+2015/7/6,NY Mets,San Francisco
+2015/7/7,Houston,Cleveland
+2015/7/7,Oakland,NY Yankees
+2015/7/7,Cincinnati,Washington
+2015/7/7,San Diego,Pittsburgh
+2015/7/7,Miami,Boston
+2015/7/7,Arizona,Texas
+2015/7/7,St. Louis,Chicago Cubs
+2015/7/7,Toronto,Chicago White Sox
+2015/7/7,Tampa Bay,Kansas City
+2015/7/7,Atlanta,Milwaukee
+2015/7/7,Baltimore,Minnesota
+2015/7/7,LA Angels,Colorado
+2015/7/7,Detroit,Seattle
+2015/7/7,Philadelphia,LA Dodgers
+2015/7/7,NY Mets,San Francisco
+2015/7/8,Baltimore,Minnesota
+2015/7/8,Atlanta,Milwaukee
+2015/7/8,Detroit,Seattle
+2015/7/8,NY Mets,San Francisco
+2015/7/8,Houston,Cleveland
+2015/7/8,Oakland,NY Yankees
+2015/7/8,Cincinnati,Washington
+2015/7/8,San Diego,Pittsburgh
+2015/7/8,Miami,Boston
+2015/7/8,Arizona,Texas
+2015/7/8,St. Louis,Chicago Cubs
+2015/7/8,Toronto,Chicago White Sox
+2015/7/8,Tampa Bay,Kansas City
+2015/7/8,LA Angels,Colorado
+2015/7/8,Philadelphia,LA Dodgers
+2015/7/9,Oakland,NY Yankees
+2015/7/9,Toronto,Chicago White Sox
+2015/7/9,Tampa Bay,Kansas City
+2015/7/9,Houston,Cleveland
+2015/7/9,St. Louis,Pittsburgh
+2015/7/9,Cincinnati,Miami
+2015/7/9,Detroit,Minnesota
+2015/7/9,Atlanta,Colorado
+2015/7/9,LA Angels,Seattle
+2015/7/9,Philadelphia,LA Dodgers
+2015/7/10,Chicago White Sox,Chicago Cubs
+2015/7/10,Washington,Baltimore
+2015/7/10,Oakland,Cleveland
+2015/7/10,St. Louis,Pittsburgh
+2015/7/10,NY Yankees,Boston
+2015/7/10,Arizona,NY Mets
+2015/7/10,Cincinnati,Miami
+2015/7/10,Houston,Tampa Bay
+2015/7/10,San Diego,Texas
+2015/7/10,Toronto,Kansas City
+2015/7/10,Detroit,Minnesota
+2015/7/10,Atlanta,Colorado
+2015/7/10,LA Angels,Seattle
+2015/7/10,Milwaukee,LA Dodgers
+2015/7/10,Philadelphia,San Francisco
+2015/7/11,Washington,Baltimore
+2015/7/11,Toronto,Kansas City
+2015/7/11,Detroit,Minnesota
+2015/7/11,Chicago White Sox,Chicago Cubs
+2015/7/11,Arizona,NY Mets
+2015/7/11,Atlanta,Colorado
+2015/7/11,Cincinnati,Miami
+2015/7/11,Houston,Tampa Bay
+2015/7/11,Oakland,Cleveland
+2015/7/11,NY Yankees,Boston
+2015/7/11,St. Louis,Pittsburgh
+2015/7/11,San Diego,Texas
+2015/7/11,Philadelphia,San Francisco
+2015/7/11,LA Angels,Seattle
+2015/7/11,Milwaukee,LA Dodgers
+2015/7/12,Oakland,Cleveland
+2015/7/12,Arizona,NY Mets
+2015/7/12,Cincinnati,Miami
+2015/7/12,Houston,Tampa Bay
+2015/7/12,Washington,Baltimore
+2015/7/12,NY Yankees,Boston
+2015/7/12,Toronto,Kansas City
+2015/7/12,Detroit,Minnesota
+2015/7/12,Chicago White Sox,Chicago Cubs
+2015/7/12,San Diego,Texas
+2015/7/12,Philadelphia,San Francisco
+2015/7/12,LA Angels,Seattle
+2015/7/12,Milwaukee,LA Dodgers
+2015/7/12,Atlanta,Colorado
+2015/7/12,St. Louis,Pittsburgh
+2015/7/14,American,National
+2015/7/17,Seattle,NY Yankees
+2015/7/17,LA Dodgers,Washington
+2015/7/17,Miami,Philadelphia
+2015/7/17,Tampa Bay,Toronto
+2015/7/17,Baltimore,Detroit
+2015/7/17,Cleveland,Cincinnati
+2015/7/17,Chicago Cubs,Atlanta
+2015/7/17,Kansas City,Chicago White Sox
+2015/7/17,Pittsburgh,Milwaukee
+2015/7/17,Texas,Houston
+2015/7/17,NY Mets,St. Louis
+2015/7/17,San Francisco,Arizona
+2015/7/17,Boston,LA Angels
+2015/7/17,Minnesota,Oakland
+2015/7/17,Colorado,San Diego
+2015/7/18,Seattle,NY Yankees
+2015/7/18,Tampa Bay,Toronto
+2015/7/18,Kansas City,Chicago White Sox
+2015/7/18,LA Dodgers,Washington
+2015/7/18,Miami,Philadelphia
+2015/7/18,Baltimore,Detroit
+2015/7/18,Pittsburgh,Milwaukee
+2015/7/18,Chicago Cubs,Atlanta
+2015/7/18,Cleveland,Cincinnati
+2015/7/18,Texas,Houston
+2015/7/18,NY Mets,St. Louis
+2015/7/18,San Francisco,Arizona
+2015/7/18,Colorado,San Diego
+2015/7/18,Boston,LA Angels
+2015/7/18,Minnesota,Oakland
+2015/7/19,Seattle,NY Yankees
+2015/7/19,Tampa Bay,Toronto
+2015/7/19,Baltimore,Detroit
+2015/7/19,Cleveland,Cincinnati
+2015/7/19,LA Dodgers,Washington
+2015/7/19,Miami,Philadelphia
+2015/7/19,Kansas City,Chicago White Sox
+2015/7/19,Pittsburgh,Milwaukee
+2015/7/19,Texas,Houston
+2015/7/19,NY Mets,St. Louis
+2015/7/19,Minnesota,Oakland
+2015/7/19,Colorado,San Diego
+2015/7/19,San Francisco,Arizona
+2015/7/19,Chicago Cubs,Atlanta
+2015/7/19,Boston,LA Angels
+2015/7/20,NY Mets,Washington
+2015/7/20,Tampa Bay,Philadelphia
+2015/7/20,Seattle,Detroit
+2015/7/20,LA Dodgers,Atlanta
+2015/7/20,Chicago Cubs,Cincinnati
+2015/7/20,Pittsburgh,Kansas City
+2015/7/20,Texas,Colorado
+2015/7/20,Miami,Arizona
+2015/7/20,Boston,LA Angels
+2015/7/20,San Francisco,San Diego
+2015/7/21,Baltimore,NY Yankees
+2015/7/21,NY Mets,Washington
+2015/7/21,Tampa Bay,Philadelphia
+2015/7/21,Seattle,Detroit
+2015/7/21,LA Dodgers,Atlanta
+2015/7/21,Chicago Cubs,Cincinnati
+2015/7/21,St. Louis,Chicago White Sox
+2015/7/21,Pittsburgh,Kansas City
+2015/7/21,Cleveland,Milwaukee
+2015/7/21,Boston,Houston
+2015/7/21,Texas,Colorado
+2015/7/21,Miami,Arizona
+2015/7/21,Minnesota,LA Angels
+2015/7/21,Toronto,Oakland
+2015/7/21,San Francisco,San Diego
+2015/7/22,LA Dodgers,Atlanta
+2015/7/22,Chicago Cubs,Cincinnati
+2015/7/22,NY Mets,Washington
+2015/7/22,Tampa Bay,Philadelphia
+2015/7/22,Cleveland,Milwaukee
+2015/7/22,Texas,Colorado
+2015/7/22,San Francisco,San Diego
+2015/7/22,Baltimore,NY Yankees
+2015/7/22,Seattle,Detroit
+2015/7/22,St. Louis,Chicago White Sox
+2015/7/22,Pittsburgh,Kansas City
+2015/7/22,Boston,Houston
+2015/7/22,Miami,Arizona
+2015/7/22,Minnesota,LA Angels
+2015/7/22,Toronto,Oakland
+2015/7/23,Baltimore,NY Yankees
+2015/7/23,Seattle,Detroit
+2015/7/23,Minnesota,LA Angels
+2015/7/23,Toronto,Oakland
+2015/7/23,Chicago White Sox,Cleveland
+2015/7/23,Washington,Pittsburgh
+2015/7/23,LA Dodgers,NY Mets
+2015/7/23,Boston,Houston
+2015/7/23,Milwaukee,Arizona
+2015/7/23,Miami,San Diego
+2015/7/24,Philadelphia,Chicago Cubs
+2015/7/24,Chicago White Sox,Cleveland
+2015/7/24,Washington,Pittsburgh
+2015/7/24,Detroit,Boston
+2015/7/24,LA Dodgers,NY Mets
+2015/7/24,Baltimore,Tampa Bay
+2015/7/24,Houston,Kansas City
+2015/7/24,NY Yankees,Minnesota
+2015/7/24,Atlanta,St. Louis
+2015/7/24,Cincinnati,Colorado
+2015/7/24,Milwaukee,Arizona
+2015/7/24,Texas,LA Angels
+2015/7/24,Toronto,Seattle
+2015/7/24,Miami,San Diego
+2015/7/24,Oakland,San Francisco
+2015/7/25,Detroit,Boston
+2015/7/25,Philadelphia,Chicago Cubs
+2015/7/25,Oakland,San Francisco
+2015/7/25,Toronto,Seattle
+2015/7/25,Baltimore,Tampa Bay
+2015/7/25,Chicago White Sox,Cleveland
+2015/7/25,Washington,Pittsburgh
+2015/7/25,Houston,Kansas City
+2015/7/25,NY Yankees,Minnesota
+2015/7/25,LA Dodgers,NY Mets
+2015/7/25,Atlanta,St. Louis
+2015/7/25,Cincinnati,Colorado
+2015/7/25,Milwaukee,Arizona
+2015/7/25,Miami,San Diego
+2015/7/25,Texas,LA Angels
+2015/7/26,Chicago White Sox,Cleveland
+2015/7/26,LA Dodgers,NY Mets
+2015/7/26,Baltimore,Tampa Bay
+2015/7/26,Detroit,Boston
+2015/7/26,Washington,Pittsburgh
+2015/7/26,Houston,Kansas City
+2015/7/26,NY Yankees,Minnesota
+2015/7/26,Atlanta,St. Louis
+2015/7/26,Philadelphia,Chicago Cubs
+2015/7/26,Texas,LA Angels
+2015/7/26,Oakland,San Francisco
+2015/7/26,Toronto,Seattle
+2015/7/26,Miami,San Diego
+2015/7/26,Cincinnati,Colorado
+2015/7/26,Milwaukee,Arizona
+2015/7/27,Atlanta,Baltimore
+2015/7/27,Kansas City,Cleveland
+2015/7/27,Chicago White Sox,Boston
+2015/7/27,Detroit,Tampa Bay
+2015/7/27,NY Yankees,Texas
+2015/7/27,Colorado,Chicago Cubs
+2015/7/27,Cincinnati,St. Louis
+2015/7/27,Arizona,Seattle
+2015/7/27,Milwaukee,San Francisco
+2015/7/28,Atlanta,Baltimore
+2015/7/28,Kansas City,Cleveland
+2015/7/28,Philadelphia,Toronto
+2015/7/28,Chicago White Sox,Boston
+2015/7/28,San Diego,NY Mets
+2015/7/28,Washington,Miami
+2015/7/28,Detroit,Tampa Bay
+2015/7/28,NY Yankees,Texas
+2015/7/28,Colorado,Chicago Cubs
+2015/7/28,Pittsburgh,Minnesota
+2015/7/28,LA Angels,Houston
+2015/7/28,Cincinnati,St. Louis
+2015/7/28,Arizona,Seattle
+2015/7/28,Oakland,LA Dodgers
+2015/7/28,Milwaukee,San Francisco
+2015/7/29,Kansas City,Cleveland
+2015/7/29,Detroit,Tampa Bay
+2015/7/29,Pittsburgh,Minnesota
+2015/7/29,Colorado,Chicago Cubs
+2015/7/29,Arizona,Seattle
+2015/7/29,Milwaukee,San Francisco
+2015/7/29,Atlanta,Baltimore
+2015/7/29,Philadelphia,Toronto
+2015/7/29,Chicago White Sox,Boston
+2015/7/29,San Diego,NY Mets
+2015/7/29,Washington,Miami
+2015/7/29,NY Yankees,Texas
+2015/7/29,LA Angels,Houston
+2015/7/29,Cincinnati,St. Louis
+2015/7/29,Oakland,LA Dodgers
+2015/7/30,San Diego,NY Mets
+2015/7/30,Washington,Miami
+2015/7/30,Detroit,Baltimore
+2015/7/30,Atlanta,Philadelphia
+2015/7/30,Kansas City,Toronto
+2015/7/30,Chicago White Sox,Boston
+2015/7/30,Pittsburgh,Cincinnati
+2015/7/30,Colorado,St. Louis
+2015/7/30,NY Yankees,Texas
+2015/7/30,Chicago Cubs,Milwaukee
+2015/7/30,Seattle,Minnesota
+2015/7/30,LA Angels,Houston
+2015/7/30,Cleveland,Oakland
+2015/7/31,Detroit,Baltimore
+2015/7/31,Atlanta,Philadelphia
+2015/7/31,Kansas City,Toronto
+2015/7/31,Tampa Bay,Boston
+2015/7/31,Pittsburgh,Cincinnati
+2015/7/31,Washington,NY Mets
+2015/7/31,San Diego,Miami
+2015/7/31,San Francisco,Texas
+2015/7/31,NY Yankees,Chicago White Sox
+2015/7/31,Chicago Cubs,Milwaukee
+2015/7/31,Seattle,Minnesota
+2015/7/31,Arizona,Houston
+2015/7/31,Colorado,St. Louis
+2015/7/31,Cleveland,Oakland
+2015/7/31,LA Angels,LA Dodgers
+2015/8/1,Pittsburgh,Cincinnati
+2015/8/1,Kansas City,Toronto
+2015/8/1,Tampa Bay,Boston
+2015/8/1,LA Angels,LA Dodgers
+2015/8/1,Detroit,Baltimore
+2015/8/1,Atlanta,Philadelphia
+2015/8/1,NY Yankees,Chicago White Sox
+2015/8/1,Chicago Cubs,Milwaukee
+2015/8/1,Seattle,Minnesota
+2015/8/1,Arizona,Houston
+2015/8/1,Washington,NY Mets
+2015/8/1,San Diego,Miami
+2015/8/1,Colorado,St. Louis
+2015/8/1,San Francisco,Texas
+2015/8/1,Cleveland,Oakland
+2015/8/2,LA Angels,LA Dodgers
+2015/8/2,Kansas City,Toronto
+2015/8/2,Pittsburgh,Cincinnati
+2015/8/2,Washington,NY Mets
+2015/8/2,San Diego,Miami
+2015/8/2,Detroit,Baltimore
+2015/8/2,Tampa Bay,Boston
+2015/8/2,Atlanta,Philadelphia
+2015/8/2,NY Yankees,Chicago White Sox
+2015/8/2,Chicago Cubs,Milwaukee
+2015/8/2,Seattle,Minnesota
+2015/8/2,Arizona,Houston
+2015/8/2,Colorado,St. Louis
+2015/8/2,San Francisco,Texas
+2015/8/2,Cleveland,Oakland
+2015/8/3,Minnesota,Toronto
+2015/8/3,Arizona,Washington
+2015/8/3,Chicago Cubs,Pittsburgh
+2015/8/3,San Francisco,Atlanta
+2015/8/3,NY Mets,Miami
+2015/8/3,Houston,Texas
+2015/8/3,Tampa Bay,Chicago White Sox
+2015/8/3,San Diego,Milwaukee
+2015/8/3,Seattle,Colorado
+2015/8/3,Cleveland,LA Angels
+2015/8/3,Baltimore,Oakland
+2015/8/4,Boston,NY Yankees
+2015/8/4,Arizona,Washington
+2015/8/4,LA Dodgers,Philadelphia
+2015/8/4,Chicago Cubs,Pittsburgh
+2015/8/4,Minnesota,Toronto
+2015/8/4,Kansas City,Detroit
+2015/8/4,San Francisco,Atlanta
+2015/8/4,St. Louis,Cincinnati
+2015/8/4,NY Mets,Miami
+2015/8/4,Houston,Texas
+2015/8/4,Tampa Bay,Chicago White Sox
+2015/8/4,San Diego,Milwaukee
+2015/8/4,Seattle,Colorado
+2015/8/4,Cleveland,LA Angels
+2015/8/4,Baltimore,Oakland
+2015/8/5,Tampa Bay,Chicago White Sox
+2015/8/5,Seattle,Colorado
+2015/8/5,Cleveland,LA Angels
+2015/8/5,Baltimore,Oakland
+2015/8/5,Boston,NY Yankees
+2015/8/5,Arizona,Washington
+2015/8/5,LA Dodgers,Philadelphia
+2015/8/5,Chicago Cubs,Pittsburgh
+2015/8/5,Minnesota,Toronto
+2015/8/5,Kansas City,Detroit
+2015/8/5,San Francisco,Atlanta
+2015/8/5,St. Louis,Cincinnati
+2015/8/5,NY Mets,Miami
+2015/8/5,Houston,Texas
+2015/8/5,San Diego,Milwaukee
+2015/8/6,St. Louis,Cincinnati
+2015/8/6,LA Dodgers,Philadelphia
+2015/8/6,Kansas City,Detroit
+2015/8/6,San Diego,Milwaukee
+2015/8/6,Arizona,Washington
+2015/8/6,Boston,NY Yankees
+2015/8/6,Minnesota,Toronto
+2015/8/6,Miami,Atlanta
+2015/8/6,San Francisco,Chicago Cubs
+2015/8/6,Houston,Oakland
+2015/8/7,San Francisco,Chicago Cubs
+2015/8/7,Minnesota,Cleveland
+2015/8/7,Toronto,NY Yankees
+2015/8/7,Colorado,Washington
+2015/8/7,LA Dodgers,Pittsburgh
+2015/8/7,Boston,Detroit
+2015/8/7,NY Mets,Tampa Bay
+2015/8/7,Miami,Atlanta
+2015/8/7,Chicago White Sox,Kansas City
+2015/8/7,St. Louis,Milwaukee
+2015/8/7,Cincinnati,Arizona
+2015/8/7,Baltimore,LA Angels
+2015/8/7,Houston,Oakland
+2015/8/7,Texas,Seattle
+2015/8/7,Philadelphia,San Diego
+2015/8/8,Toronto,NY Yankees
+2015/8/8,Houston,Oakland
+2015/8/8,San Francisco,Chicago Cubs
+2015/8/8,LA Dodgers,Pittsburgh
+2015/8/8,Texas,Seattle
+2015/8/8,NY Mets,Tampa Bay
+2015/8/8,Minnesota,Cleveland
+2015/8/8,Colorado,Washington
+2015/8/8,Boston,Detroit
+2015/8/8,Chicago White Sox,Kansas City
+2015/8/8,St. Louis,Milwaukee
+2015/8/8,Miami,Atlanta
+2015/8/8,Cincinnati,Arizona
+2015/8/8,Philadelphia,San Diego
+2015/8/8,Baltimore,LA Angels
+2015/8/9,Baltimore,LA Angels
+2015/8/9,San Francisco,Chicago Cubs
+2015/8/9,Minnesota,Cleveland
+2015/8/9,Toronto,NY Yankees
+2015/8/9,Boston,Detroit
+2015/8/9,NY Mets,Tampa Bay
+2015/8/9,Colorado,Washington
+2015/8/9,LA Dodgers,Pittsburgh
+2015/8/9,Chicago White Sox,Kansas City
+2015/8/9,St. Louis,Milwaukee
+2015/8/9,Houston,Oakland
+2015/8/9,Texas,Seattle
+2015/8/9,Philadelphia,San Diego
+2015/8/9,Cincinnati,Arizona
+2015/8/9,Miami,Atlanta
+2015/8/10,Colorado,NY Mets
+2015/8/10,LA Angels,Chicago White Sox
+2015/8/10,Detroit,Kansas City
+2015/8/10,Philadelphia,Arizona
+2015/8/10,Baltimore,Seattle
+2015/8/10,Washington,LA Dodgers
+2015/8/10,Cincinnati,San Diego
+2015/8/11,NY Yankees,Cleveland
+2015/8/11,Oakland,Toronto
+2015/8/11,Colorado,NY Mets
+2015/8/11,Boston,Miami
+2015/8/11,Atlanta,Tampa Bay
+2015/8/11,Milwaukee,Chicago Cubs
+2015/8/11,LA Angels,Chicago White Sox
+2015/8/11,Detroit,Kansas City
+2015/8/11,Texas,Minnesota
+2015/8/11,Pittsburgh,St. Louis
+2015/8/11,Philadelphia,Arizona
+2015/8/11,Baltimore,Seattle
+2015/8/11,Washington,LA Dodgers
+2015/8/11,Cincinnati,San Diego
+2015/8/11,Houston,San Francisco
+2015/8/12,Baltimore,Seattle
+2015/8/12,Cincinnati,San Diego
+2015/8/12,Philadelphia,Arizona
+2015/8/12,Houston,San Francisco
+2015/8/12,Boston,Miami
+2015/8/12,NY Yankees,Cleveland
+2015/8/12,Oakland,Toronto
+2015/8/12,Colorado,NY Mets
+2015/8/12,Atlanta,Tampa Bay
+2015/8/12,Milwaukee,Chicago Cubs
+2015/8/12,LA Angels,Chicago White Sox
+2015/8/12,Detroit,Kansas City
+2015/8/12,Texas,Minnesota
+2015/8/12,Pittsburgh,St. Louis
+2015/8/12,Washington,LA Dodgers
+2015/8/13,Colorado,NY Mets
+2015/8/13,Oakland,Toronto
+2015/8/13,Texas,Minnesota
+2015/8/13,Milwaukee,Chicago Cubs
+2015/8/13,NY Yankees,Cleveland
+2015/8/13,Pittsburgh,St. Louis
+2015/8/13,LA Angels,Kansas City
+2015/8/13,Cincinnati,LA Dodgers
+2015/8/13,Washington,San Francisco
+2015/8/14,Chicago Cubs,Chicago White Sox
+2015/8/14,Oakland,Baltimore
+2015/8/14,NY Yankees,Toronto
+2015/8/14,Seattle,Boston
+2015/8/14,Pittsburgh,NY Mets
+2015/8/14,Arizona,Atlanta
+2015/8/14,Tampa Bay,Texas
+2015/8/14,LA Angels,Kansas City
+2015/8/14,Philadelphia,Milwaukee
+2015/8/14,Cleveland,Minnesota
+2015/8/14,Detroit,Houston
+2015/8/14,Miami,St. Louis
+2015/8/14,San Diego,Colorado
+2015/8/14,Cincinnati,LA Dodgers
+2015/8/14,Washington,San Francisco
+2015/8/15,NY Yankees,Toronto
+2015/8/15,Seattle,Boston
+2015/8/15,Oakland,Baltimore
+2015/8/15,Chicago Cubs,Chicago White Sox
+2015/8/15,LA Angels,Kansas City
+2015/8/15,Philadelphia,Milwaukee
+2015/8/15,Cleveland,Minnesota
+2015/8/15,Arizona,Atlanta
+2015/8/15,Detroit,Houston
+2015/8/15,Pittsburgh,NY Mets
+2015/8/15,Miami,St. Louis
+2015/8/15,Tampa Bay,Texas
+2015/8/15,San Diego,Colorado
+2015/8/15,Cincinnati,LA Dodgers
+2015/8/15,Washington,San Francisco
+2015/8/16,Tampa Bay,Texas
+2015/8/16,NY Yankees,Toronto
+2015/8/16,Pittsburgh,NY Mets
+2015/8/16,Oakland,Baltimore
+2015/8/16,Seattle,Boston
+2015/8/16,Arizona,Atlanta
+2015/8/16,Chicago Cubs,Chicago White Sox
+2015/8/16,LA Angels,Kansas City
+2015/8/16,Philadelphia,Milwaukee
+2015/8/16,Cleveland,Minnesota
+2015/8/16,Detroit,Houston
+2015/8/16,Miami,St. Louis
+2015/8/16,Washington,San Francisco
+2015/8/16,Cincinnati,LA Dodgers
+2015/8/16,San Diego,Colorado
+2015/8/17,Oakland,Baltimore
+2015/8/17,Minnesota,NY Yankees
+2015/8/17,Arizona,Pittsburgh
+2015/8/17,Cleveland,Boston
+2015/8/17,Seattle,Texas
+2015/8/17,Miami,Milwaukee
+2015/8/17,Tampa Bay,Houston
+2015/8/17,San Francisco,St. Louis
+2015/8/17,Chicago White Sox,LA Angels
+2015/8/17,Atlanta,San Diego
+2015/8/18,NY Mets,Baltimore
+2015/8/18,Minnesota,NY Yankees
+2015/8/18,Toronto,Philadelphia
+2015/8/18,Arizona,Pittsburgh
+2015/8/18,Cleveland,Boston
+2015/8/18,Kansas City,Cincinnati
+2015/8/18,Seattle,Texas
+2015/8/18,Detroit,Chicago Cubs
+2015/8/18,Miami,Milwaukee
+2015/8/18,Tampa Bay,Houston
+2015/8/18,San Francisco,St. Louis
+2015/8/18,Washington,Colorado
+2015/8/18,Chicago White Sox,LA Angels
+2015/8/18,LA Dodgers,Oakland
+2015/8/18,Atlanta,San Diego
+2015/8/19,Minnesota,NY Yankees
+2015/8/19,Seattle,Texas
+2015/8/19,Miami,Milwaukee
+2015/8/19,LA Dodgers,Oakland
+2015/8/19,Atlanta,San Diego
+2015/8/19,NY Mets,Baltimore
+2015/8/19,Toronto,Philadelphia
+2015/8/19,Arizona,Pittsburgh
+2015/8/19,Cleveland,Boston
+2015/8/19,Kansas City,Cincinnati
+2015/8/19,San Francisco,St. Louis
+2015/8/19,Detroit,Chicago Cubs
+2015/8/19,Tampa Bay,Houston
+2015/8/19,Washington,Colorado
+2015/8/19,Chicago White Sox,LA Angels
+2015/8/20,Minnesota,Baltimore
+2015/8/20,Cleveland,NY Yankees
+2015/8/20,San Francisco,Pittsburgh
+2015/8/20,Texas,Detroit
+2015/8/20,Kansas City,Boston
+2015/8/20,Arizona,Cincinnati
+2015/8/20,Philadelphia,Miami
+2015/8/20,Atlanta,Chicago Cubs
+2015/8/20,Tampa Bay,Houston
+2015/8/20,Washington,Colorado
+2015/8/20,Chicago White Sox,LA Angels
+2015/8/21,Atlanta,Chicago Cubs
+2015/8/21,Minnesota,Baltimore
+2015/8/21,Cleveland,NY Yankees
+2015/8/21,Milwaukee,Washington
+2015/8/21,San Francisco,Pittsburgh
+2015/8/21,Texas,Detroit
+2015/8/21,Kansas City,Boston
+2015/8/21,Arizona,Cincinnati
+2015/8/21,Philadelphia,Miami
+2015/8/21,LA Dodgers,Houston
+2015/8/21,NY Mets,Colorado
+2015/8/21,Toronto,LA Angels
+2015/8/21,Tampa Bay,Oakland
+2015/8/21,Chicago White Sox,Seattle
+2015/8/21,St. Louis,San Diego
+2015/8/22,Cleveland,NY Yankees
+2015/8/22,Atlanta,Chicago Cubs
+2015/8/22,San Francisco,Pittsburgh
+2015/8/22,Minnesota,Baltimore
+2015/8/22,Milwaukee,Washington
+2015/8/22,Texas,Detroit
+2015/8/22,Kansas City,Boston
+2015/8/22,Arizona,Cincinnati
+2015/8/22,LA Dodgers,Houston
+2015/8/22,Philadelphia,Miami
+2015/8/22,NY Mets,Colorado
+2015/8/22,St. Louis,San Diego
+2015/8/22,Toronto,LA Angels
+2015/8/22,Tampa Bay,Oakland
+2015/8/22,Chicago White Sox,Seattle
+2015/8/23,Cleveland,NY Yankees
+2015/8/23,Texas,Detroit
+2015/8/23,Arizona,Cincinnati
+2015/8/23,Philadelphia,Miami
+2015/8/23,Minnesota,Baltimore
+2015/8/23,Kansas City,Boston
+2015/8/23,Milwaukee,Washington
+2015/8/23,San Francisco,Pittsburgh
+2015/8/23,LA Dodgers,Houston
+2015/8/23,Atlanta,Chicago Cubs
+2015/8/23,Toronto,LA Angels
+2015/8/23,Tampa Bay,Oakland
+2015/8/23,Chicago White Sox,Seattle
+2015/8/23,St. Louis,San Diego
+2015/8/23,NY Mets,Colorado
+2015/8/24,Houston,NY Yankees
+2015/8/24,NY Mets,Philadelphia
+2015/8/24,Colorado,Atlanta
+2015/8/24,Pittsburgh,Miami
+2015/8/24,Boston,Chicago White Sox
+2015/8/24,Baltimore,Kansas City
+2015/8/24,St. Louis,Arizona
+2015/8/24,Oakland,Seattle
+2015/8/25,Houston,NY Yankees
+2015/8/25,San Diego,Washington
+2015/8/25,NY Mets,Philadelphia
+2015/8/25,LA Angels,Detroit
+2015/8/25,Milwaukee,Cleveland
+2015/8/25,Colorado,Atlanta
+2015/8/25,LA Dodgers,Cincinnati
+2015/8/25,Pittsburgh,Miami
+2015/8/25,Minnesota,Tampa Bay
+2015/8/25,Toronto,Texas
+2015/8/25,Boston,Chicago White Sox
+2015/8/25,Baltimore,Kansas City
+2015/8/25,St. Louis,Arizona
+2015/8/25,Oakland,Seattle
+2015/8/25,Chicago Cubs,San Francisco
+2015/8/26,Houston,NY Yankees
+2015/8/26,Oakland,Seattle
+2015/8/26,San Diego,Washington
+2015/8/26,NY Mets,Philadelphia
+2015/8/26,LA Angels,Detroit
+2015/8/26,Milwaukee,Cleveland
+2015/8/26,Colorado,Atlanta
+2015/8/26,LA Dodgers,Cincinnati
+2015/8/26,Pittsburgh,Miami
+2015/8/26,Minnesota,Tampa Bay
+2015/8/26,Toronto,Texas
+2015/8/26,Boston,Chicago White Sox
+2015/8/26,Baltimore,Kansas City
+2015/8/26,St. Louis,Arizona
+2015/8/26,Chicago Cubs,San Francisco
+2015/8/27,LA Dodgers,Cincinnati
+2015/8/27,LA Angels,Detroit
+2015/8/27,Toronto,Texas
+2015/8/27,Baltimore,Kansas City
+2015/8/27,Chicago Cubs,San Francisco
+2015/8/27,San Diego,Washington
+2015/8/27,NY Mets,Philadelphia
+2015/8/27,Pittsburgh,Miami
+2015/8/27,Minnesota,Tampa Bay
+2015/8/27,Seattle,Chicago White Sox
+2015/8/27,St. Louis,Arizona
+2015/8/28,LA Angels,Cleveland
+2015/8/28,Miami,Washington
+2015/8/28,San Diego,Philadelphia
+2015/8/28,Colorado,Pittsburgh
+2015/8/28,Detroit,Toronto
+2015/8/28,Boston,NY Mets
+2015/8/28,Kansas City,Tampa Bay
+2015/8/28,NY Yankees,Atlanta
+2015/8/28,Baltimore,Texas
+2015/8/28,Seattle,Chicago White Sox
+2015/8/28,Cincinnati,Milwaukee
+2015/8/28,Houston,Minnesota
+2015/8/28,Oakland,Arizona
+2015/8/28,Chicago Cubs,LA Dodgers
+2015/8/28,St. Louis,San Francisco
+2015/8/29,Detroit,Toronto
+2015/8/29,Boston,NY Mets
+2015/8/29,St. Louis,San Francisco
+2015/8/29,Kansas City,Tampa Bay
+2015/8/29,LA Angels,Cleveland
+2015/8/29,Miami,Washington
+2015/8/29,San Diego,Philadelphia
+2015/8/29,Colorado,Pittsburgh
+2015/8/29,Seattle,Chicago White Sox
+2015/8/29,Cincinnati,Milwaukee
+2015/8/29,Houston,Minnesota
+2015/8/29,NY Yankees,Atlanta
+2015/8/29,Baltimore,Texas
+2015/8/29,Oakland,Arizona
+2015/8/29,Chicago Cubs,LA Dodgers
+2015/8/30,Chicago Cubs,LA Dodgers
+2015/8/30,LA Angels,Cleveland
+2015/8/30,Detroit,Toronto
+2015/8/30,Boston,NY Mets
+2015/8/30,Kansas City,Tampa Bay
+2015/8/30,NY Yankees,Atlanta
+2015/8/30,Miami,Washington
+2015/8/30,San Diego,Philadelphia
+2015/8/30,Colorado,Pittsburgh
+2015/8/30,Seattle,Chicago White Sox
+2015/8/30,Cincinnati,Milwaukee
+2015/8/30,Houston,Minnesota
+2015/8/30,Baltimore,Texas
+2015/8/30,St. Louis,San Francisco
+2015/8/30,Oakland,Arizona
+2015/8/31,Tampa Bay,Baltimore
+2015/8/31,Cleveland,Toronto
+2015/8/31,NY Yankees,Boston
+2015/8/31,Miami,Atlanta
+2015/8/31,Philadelphia,NY Mets
+2015/8/31,Cincinnati,Chicago Cubs
+2015/8/31,Seattle,Houston
+2015/8/31,Washington,St. Louis
+2015/8/31,Arizona,Colorado
+2015/8/31,LA Angels,Oakland
+2015/8/31,San Francisco,LA Dodgers
+2015/8/31,Texas,San Diego
+2015/9/1,Tampa Bay,Baltimore
+2015/9/1,Cleveland,Toronto
+2015/9/1,NY Yankees,Boston
+2015/9/1,Miami,Atlanta
+2015/9/1,Philadelphia,NY Mets
+2015/9/1,Cincinnati,Chicago Cubs
+2015/9/1,Detroit,Kansas City
+2015/9/1,Pittsburgh,Milwaukee
+2015/9/1,Chicago White Sox,Minnesota
+2015/9/1,Seattle,Houston
+2015/9/1,Washington,St. Louis
+2015/9/1,Arizona,Colorado
+2015/9/1,LA Angels,Oakland
+2015/9/1,San Francisco,LA Dodgers
+2015/9/1,Texas,San Diego
+2015/9/2,Miami,Atlanta
+2015/9/2,Cincinnati,Chicago Cubs
+2015/9/2,LA Angels,Oakland
+2015/9/2,NY Yankees,Boston
+2015/9/2,Tampa Bay,Baltimore
+2015/9/2,Cleveland,Toronto
+2015/9/2,Philadelphia,NY Mets
+2015/9/2,Detroit,Kansas City
+2015/9/2,Pittsburgh,Milwaukee
+2015/9/2,Chicago White Sox,Minnesota
+2015/9/2,Seattle,Houston
+2015/9/2,Washington,St. Louis
+2015/9/2,Arizona,Colorado
+2015/9/2,San Francisco,LA Dodgers
+2015/9/2,Texas,San Diego
+2015/9/3,Chicago White Sox,Minnesota
+2015/9/3,Atlanta,Washington
+2015/9/3,Pittsburgh,Milwaukee
+2015/9/3,Detroit,Kansas City
+2015/9/3,San Francisco,Colorado
+2015/9/3,LA Dodgers,San Diego
+2015/9/4,Arizona,Chicago Cubs
+2015/9/4,Tampa Bay,NY Yankees
+2015/9/4,Atlanta,Washington
+2015/9/4,Baltimore,Toronto
+2015/9/4,Cleveland,Detroit
+2015/9/4,Philadelphia,Boston
+2015/9/4,Milwaukee,Cincinnati
+2015/9/4,NY Mets,Miami
+2015/9/4,Chicago White Sox,Kansas City
+2015/9/4,Minnesota,Houston
+2015/9/4,Pittsburgh,St. Louis
+2015/9/4,San Francisco,Colorado
+2015/9/4,Texas,LA Angels
+2015/9/4,Seattle,Oakland
+2015/9/4,LA Dodgers,San Diego
+2015/9/5,Tampa Bay,NY Yankees
+2015/9/5,Baltimore,Toronto
+2015/9/5,Milwaukee,Cincinnati
+2015/9/5,Arizona,Chicago Cubs
+2015/9/5,Philadelphia,Boston
+2015/9/5,Pittsburgh,St. Louis
+2015/9/5,NY Mets,Miami
+2015/9/5,Atlanta,Washington
+2015/9/5,Cleveland,Detroit
+2015/9/5,Chicago White Sox,Kansas City
+2015/9/5,Minnesota,Houston
+2015/9/5,San Francisco,Colorado
+2015/9/5,LA Dodgers,San Diego
+2015/9/5,Texas,LA Angels
+2015/9/5,Seattle,Oakland
+2015/9/6,Tampa Bay,NY Yankees
+2015/9/6,Baltimore,Toronto
+2015/9/6,Cleveland,Detroit
+2015/9/6,Milwaukee,Cincinnati
+2015/9/6,NY Mets,Miami
+2015/9/6,Philadelphia,Boston
+2015/9/6,Atlanta,Washington
+2015/9/6,Chicago White Sox,Kansas City
+2015/9/6,Minnesota,Houston
+2015/9/6,Pittsburgh,St. Louis
+2015/9/6,Arizona,Chicago Cubs
+2015/9/6,Texas,LA Angels
+2015/9/6,Seattle,Oakland
+2015/9/6,LA Dodgers,San Diego
+2015/9/6,San Francisco,Colorado
+2015/9/7,Baltimore,NY Yankees
+2015/9/7,NY Mets,Washington
+2015/9/7,Tampa Bay,Detroit
+2015/9/7,Pittsburgh,Cincinnati
+2015/9/7,Milwaukee,Miami
+2015/9/7,Toronto,Boston
+2015/9/7,Cleveland,Chicago White Sox
+2015/9/7,Chicago Cubs,St. Louis
+2015/9/7,Houston,Oakland
+2015/9/7,Colorado,San Diego
+2015/9/7,San Francisco,Arizona
+2015/9/7,Texas,Seattle
+2015/9/7,Atlanta,Philadelphia
+2015/9/7,Minnesota,Kansas City
+2015/9/7,LA Dodgers,LA Angels
+2015/9/8,Baltimore,NY Yankees
+2015/9/8,NY Mets,Washington
+2015/9/8,Atlanta,Philadelphia
+2015/9/8,Tampa Bay,Detroit
+2015/9/8,Toronto,Boston
+2015/9/8,Pittsburgh,Cincinnati
+2015/9/8,Milwaukee,Miami
+2015/9/8,Cleveland,Chicago White Sox
+2015/9/8,Minnesota,Kansas City
+2015/9/8,Chicago Cubs,St. Louis
+2015/9/8,San Francisco,Arizona
+2015/9/8,LA Dodgers,LA Angels
+2015/9/8,Houston,Oakland
+2015/9/8,Texas,Seattle
+2015/9/8,Colorado,San Diego
+2015/9/9,Chicago Cubs,St. Louis
+2015/9/9,Baltimore,NY Yankees
+2015/9/9,NY Mets,Washington
+2015/9/9,Atlanta,Philadelphia
+2015/9/9,Tampa Bay,Detroit
+2015/9/9,Toronto,Boston
+2015/9/9,Pittsburgh,Cincinnati
+2015/9/9,Milwaukee,Miami
+2015/9/9,Cleveland,Chicago White Sox
+2015/9/9,Minnesota,Kansas City
+2015/9/9,Colorado,San Diego
+2015/9/9,San Francisco,Arizona
+2015/9/9,LA Dodgers,LA Angels
+2015/9/9,Houston,Oakland
+2015/9/9,Texas,Seattle
+2015/9/10,Texas,Seattle
+2015/9/10,Detroit,Cleveland
+2015/9/10,Toronto,NY Yankees
+2015/9/10,Chicago Cubs,Philadelphia
+2015/9/10,Milwaukee,Pittsburgh
+2015/9/10,NY Mets,Atlanta
+2015/9/10,St. Louis,Cincinnati
+2015/9/11,Kansas City,Baltimore
+2015/9/11,Detroit,Cleveland
+2015/9/11,Toronto,NY Yankees
+2015/9/11,Chicago Cubs,Philadelphia
+2015/9/11,Milwaukee,Pittsburgh
+2015/9/11,St. Louis,Cincinnati
+2015/9/11,Washington,Miami
+2015/9/11,Boston,Tampa Bay
+2015/9/11,NY Mets,Atlanta
+2015/9/11,Oakland,Texas
+2015/9/11,Minnesota,Chicago White Sox
+2015/9/11,LA Dodgers,Arizona
+2015/9/11,Houston,LA Angels
+2015/9/11,Colorado,Seattle
+2015/9/11,San Diego,San Francisco
+2015/9/12,St. Louis,Cincinnati
+2015/9/12,Toronto,NY Yankees
+2015/9/12,Washington,Miami
+2015/9/12,Boston,Tampa Bay
+2015/9/12,Kansas City,Baltimore
+2015/9/12,Detroit,Cleveland
+2015/9/12,Chicago Cubs,Philadelphia
+2015/9/12,Milwaukee,Pittsburgh
+2015/9/12,Minnesota,Chicago White Sox
+2015/9/12,NY Mets,Atlanta
+2015/9/12,Oakland,Texas
+2015/9/12,LA Dodgers,Arizona
+2015/9/12,Houston,LA Angels
+2015/9/12,San Diego,San Francisco
+2015/9/12,Colorado,Seattle
+2015/9/13,Detroit,Cleveland
+2015/9/13,Toronto,NY Yankees
+2015/9/13,St. Louis,Cincinnati
+2015/9/13,Washington,Miami
+2015/9/13,Boston,Tampa Bay
+2015/9/13,Kansas City,Baltimore
+2015/9/13,NY Mets,Atlanta
+2015/9/13,Chicago Cubs,Philadelphia
+2015/9/13,Milwaukee,Pittsburgh
+2015/9/13,Minnesota,Chicago White Sox
+2015/9/13,Oakland,Texas
+2015/9/13,Houston,LA Angels
+2015/9/13,San Diego,San Francisco
+2015/9/13,Colorado,Seattle
+2015/9/13,LA Dodgers,Arizona
+2015/9/14,Boston,Baltimore
+2015/9/14,Kansas City,Cleveland
+2015/9/14,Washington,Philadelphia
+2015/9/14,Miami,NY Mets
+2015/9/14,NY Yankees,Tampa Bay
+2015/9/14,Houston,Texas
+2015/9/14,Oakland,Chicago White Sox
+2015/9/14,Detroit,Minnesota
+2015/9/14,San Diego,Arizona
+2015/9/14,LA Angels,Seattle
+2015/9/14,Colorado,LA Dodgers
+2015/9/14,Cincinnati,San Francisco
+2015/9/15,Boston,Baltimore
+2015/9/15,Kansas City,Cleveland
+2015/9/15,Washington,Philadelphia
+2015/9/15,Chicago Cubs,Pittsburgh
+2015/9/15,Toronto,Atlanta
+2015/9/15,Miami,NY Mets
+2015/9/15,NY Yankees,Tampa Bay
+2015/9/15,Houston,Texas
+2015/9/15,Oakland,Chicago White Sox
+2015/9/15,St. Louis,Milwaukee
+2015/9/15,Detroit,Minnesota
+2015/9/15,San Diego,Arizona
+2015/9/15,LA Angels,Seattle
+2015/9/15,Colorado,LA Dodgers
+2015/9/15,Cincinnati,San Francisco
+2015/9/16,Boston,Baltimore
+2015/9/16,Kansas City,Cleveland
+2015/9/16,Washington,Philadelphia
+2015/9/16,Chicago Cubs,Pittsburgh
+2015/9/16,Toronto,Atlanta
+2015/9/16,Miami,NY Mets
+2015/9/16,NY Yankees,Tampa Bay
+2015/9/16,Houston,Texas
+2015/9/16,Oakland,Chicago White Sox
+2015/9/16,St. Louis,Milwaukee
+2015/9/16,Detroit,Minnesota
+2015/9/16,San Diego,Arizona
+2015/9/16,LA Angels,Seattle
+2015/9/16,Colorado,LA Dodgers
+2015/9/16,Cincinnati,San Francisco
+2015/9/17,Chicago Cubs,Pittsburgh
+2015/9/17,Oakland,Chicago White Sox
+2015/9/17,Kansas City,Cleveland
+2015/9/17,Miami,Washington
+2015/9/17,Toronto,Atlanta
+2015/9/17,Baltimore,Tampa Bay
+2015/9/17,Houston,Texas
+2015/9/17,St. Louis,Milwaukee
+2015/9/17,LA Angels,Minnesota
+2015/9/18,St. Louis,Chicago Cubs
+2015/9/18,Chicago White Sox,Cleveland
+2015/9/18,Miami,Washington
+2015/9/18,Boston,Toronto
+2015/9/18,Kansas City,Detroit
+2015/9/18,NY Yankees,NY Mets
+2015/9/18,Baltimore,Tampa Bay
+2015/9/18,Philadelphia,Atlanta
+2015/9/18,Seattle,Texas
+2015/9/18,Cincinnati,Milwaukee
+2015/9/18,LA Angels,Minnesota
+2015/9/18,Oakland,Houston
+2015/9/18,San Diego,Colorado
+2015/9/18,Pittsburgh,LA Dodgers
+2015/9/18,Arizona,San Francisco
+2015/9/19,St. Louis,Chicago Cubs
+2015/9/19,NY Yankees,NY Mets
+2015/9/19,Boston,Toronto
+2015/9/19,Miami,Washington
+2015/9/19,Arizona,San Francisco
+2015/9/19,Baltimore,Tampa Bay
+2015/9/19,Chicago White Sox,Cleveland
+2015/9/19,Kansas City,Detroit
+2015/9/19,Cincinnati,Milwaukee
+2015/9/19,LA Angels,Minnesota
+2015/9/19,Philadelphia,Atlanta
+2015/9/19,Oakland,Houston
+2015/9/19,Seattle,Texas
+2015/9/19,San Diego,Colorado
+2015/9/19,Pittsburgh,LA Dodgers
+2015/9/20,St. Louis,Chicago Cubs
+2015/9/20,Chicago White Sox,Cleveland
+2015/9/20,Boston,Toronto
+2015/9/20,Kansas City,Detroit
+2015/9/20,NY Yankees,NY Mets
+2015/9/20,Baltimore,Tampa Bay
+2015/9/20,Philadelphia,Atlanta
+2015/9/20,Miami,Washington
+2015/9/20,Cincinnati,Milwaukee
+2015/9/20,LA Angels,Minnesota
+2015/9/20,Oakland,Houston
+2015/9/20,Seattle,Texas
+2015/9/20,Arizona,San Francisco
+2015/9/20,Pittsburgh,LA Dodgers
+2015/9/20,San Diego,Colorado
+2015/9/21,Baltimore,Washington
+2015/9/21,NY Yankees,Toronto
+2015/9/21,Chicago White Sox,Detroit
+2015/9/21,Tampa Bay,Boston
+2015/9/21,Atlanta,NY Mets
+2015/9/21,Milwaukee,Chicago Cubs
+2015/9/21,LA Angels,Houston
+2015/9/21,Cincinnati,St. Louis
+2015/9/21,Pittsburgh,Colorado
+2015/9/21,Arizona,LA Dodgers
+2015/9/22,Baltimore,Washington
+2015/9/22,NY Yankees,Toronto
+2015/9/22,Chicago White Sox,Detroit
+2015/9/22,Tampa Bay,Boston
+2015/9/22,Atlanta,NY Mets
+2015/9/22,Philadelphia,Miami
+2015/9/22,Milwaukee,Chicago Cubs
+2015/9/22,Seattle,Kansas City
+2015/9/22,Cleveland,Minnesota
+2015/9/22,LA Angels,Houston
+2015/9/22,Cincinnati,St. Louis
+2015/9/22,Pittsburgh,Colorado
+2015/9/22,Texas,Oakland
+2015/9/22,Arizona,LA Dodgers
+2015/9/22,San Francisco,San Diego
+2015/9/23,Chicago White Sox,Detroit
+2015/9/23,LA Angels,Houston
+2015/9/23,Baltimore,Washington
+2015/9/23,NY Yankees,Toronto
+2015/9/23,Tampa Bay,Boston
+2015/9/23,Atlanta,NY Mets
+2015/9/23,Philadelphia,Miami
+2015/9/23,Milwaukee,Chicago Cubs
+2015/9/23,Seattle,Kansas City
+2015/9/23,Cleveland,Minnesota
+2015/9/23,Cincinnati,St. Louis
+2015/9/23,Pittsburgh,Colorado
+2015/9/23,Texas,Oakland
+2015/9/23,Arizona,LA Dodgers
+2015/9/23,San Francisco,San Diego
+2015/9/24,Arizona,LA Dodgers
+2015/9/24,Pittsburgh,Colorado
+2015/9/24,Texas,Oakland
+2015/9/24,Chicago White Sox,NY Yankees
+2015/9/24,Tampa Bay,Boston
+2015/9/24,NY Mets,Cincinnati
+2015/9/24,Philadelphia,Miami
+2015/9/24,Milwaukee,St. Louis
+2015/9/24,Seattle,Kansas City
+2015/9/24,Cleveland,Minnesota
+2015/9/24,San Francisco,San Diego
+2015/9/25,Pittsburgh,Chicago Cubs
+2015/9/25,Chicago White Sox,NY Yankees
+2015/9/25,Philadelphia,Washington
+2015/9/25,Tampa Bay,Toronto
+2015/9/25,Minnesota,Detroit
+2015/9/25,Baltimore,Boston
+2015/9/25,NY Mets,Cincinnati
+2015/9/25,Atlanta,Miami
+2015/9/25,Cleveland,Kansas City
+2015/9/25,Texas,Houston
+2015/9/25,LA Dodgers,Colorado
+2015/9/25,Milwaukee,St. Louis
+2015/9/25,Seattle,LA Angels
+2015/9/25,San Francisco,Oakland
+2015/9/25,Arizona,San Diego
+2015/9/26,Baltimore,Boston
+2015/9/26,Chicago White Sox,NY Yankees
+2015/9/26,Pittsburgh,Chicago Cubs
+2015/9/26,Tampa Bay,Toronto
+2015/9/26,NY Mets,Cincinnati
+2015/9/26,San Francisco,Oakland
+2015/9/26,Philadelphia,Washington
+2015/9/26,Atlanta,Miami
+2015/9/26,Minnesota,Detroit
+2015/9/26,Cleveland,Kansas City
+2015/9/26,Texas,Houston
+2015/9/26,Milwaukee,St. Louis
+2015/9/26,LA Dodgers,Colorado
+2015/9/26,Arizona,San Diego
+2015/9/26,Seattle,LA Angels
+2015/9/27,Baltimore,Boston
+2015/9/27,Seattle,LA Angels
+2015/9/27,Chicago White Sox,NY Yankees
+2015/9/27,Pittsburgh,Chicago Cubs
+2015/9/27,Tampa Bay,Toronto
+2015/9/27,Minnesota,Detroit
+2015/9/27,NY Mets,Cincinnati
+2015/9/27,Atlanta,Miami
+2015/9/27,Philadelphia,Washington
+2015/9/27,Cleveland,Kansas City
+2015/9/27,Texas,Houston
+2015/9/27,Milwaukee,St. Louis
+2015/9/27,San Francisco,Oakland
+2015/9/27,Arizona,San Diego
+2015/9/27,LA Dodgers,Colorado
+2015/9/28,Toronto,Baltimore
+2015/9/28,Minnesota,Cleveland
+2015/9/28,Boston,NY Yankees
+2015/9/28,St. Louis,Pittsburgh
+2015/9/28,Detroit,Texas
+2015/9/28,Oakland,LA Angels
+2015/9/28,Houston,Seattle
+2015/9/28,LA Dodgers,San Francisco
+2015/9/29,Toronto,Baltimore
+2015/9/29,Minnesota,Cleveland
+2015/9/29,Boston,NY Yankees
+2015/9/29,NY Mets,Philadelphia
+2015/9/29,St. Louis,Pittsburgh
+2015/9/29,Washington,Atlanta
+2015/9/29,Chicago Cubs,Cincinnati
+2015/9/29,Miami,Tampa Bay
+2015/9/29,Detroit,Texas
+2015/9/29,Kansas City,Chicago White Sox
+2015/9/29,Colorado,Arizona
+2015/9/29,Oakland,LA Angels
+2015/9/29,Houston,Seattle
+2015/9/29,Milwaukee,San Diego
+2015/9/29,LA Dodgers,San Francisco
+2015/9/30,Detroit,Texas
+2015/9/30,Toronto,Baltimore
+2015/9/30,Oakland,LA Angels
+2015/9/30,Minnesota,Cleveland
+2015/9/30,Boston,NY Yankees
+2015/9/30,NY Mets,Philadelphia
+2015/9/30,St. Louis,Pittsburgh
+2015/9/30,Washington,Atlanta
+2015/9/30,Chicago Cubs,Cincinnati
+2015/9/30,Miami,Tampa Bay
+2015/9/30,Kansas City,Chicago White Sox
+2015/9/30,Colorado,Arizona
+2015/9/30,Houston,Seattle
+2015/9/30,Milwaukee,San Diego
+2015/9/30,LA Dodgers,San Francisco
+2015/10/1,Chicago Cubs,Cincinnati
+2015/10/1,LA Dodgers,San Francisco
+2015/10/1,Milwaukee,San Diego
+2015/10/1,Toronto,Baltimore
+2015/10/1,Minnesota,Cleveland
+2015/10/1,Boston,NY Yankees
+2015/10/1,NY Mets,Philadelphia
+2015/10/1,Washington,Atlanta
+2015/10/1,Miami,Tampa Bay
+2015/10/1,LA Angels,Texas
+2015/10/1,Kansas City,Chicago White Sox
+2015/10/1,Colorado,Arizona
+2015/10/2,NY Yankees,Baltimore
+2015/10/2,Boston,Cleveland
+2015/10/2,Miami,Philadelphia
+2015/10/2,Cincinnati,Pittsburgh
+2015/10/2,Washington,NY Mets
+2015/10/2,Toronto,Tampa Bay
+2015/10/2,St. Louis,Atlanta
+2015/10/2,LA Angels,Texas
+2015/10/2,Detroit,Chicago White Sox
+2015/10/2,Chicago Cubs,Milwaukee
+2015/10/2,Kansas City,Minnesota
+2015/10/2,Houston,Arizona
+2015/10/2,Oakland,Seattle
+2015/10/2,San Diego,LA Dodgers
+2015/10/2,Colorado,San Francisco
+2015/10/3,Colorado,San Francisco
+2015/10/3,Toronto,Tampa Bay
+2015/10/3,NY Yankees,Baltimore
+2015/10/3,Boston,Cleveland
+2015/10/3,Miami,Philadelphia
+2015/10/3,Cincinnati,Pittsburgh
+2015/10/3,Detroit,Chicago White Sox
+2015/10/3,Chicago Cubs,Milwaukee
+2015/10/3,Kansas City,Minnesota
+2015/10/3,St. Louis,Atlanta
+2015/10/3,Washington,NY Mets
+2015/10/3,LA Angels,Texas
+2015/10/3,Houston,Arizona
+2015/10/3,Oakland,Seattle
+2015/10/3,San Diego,LA Dodgers
+2015/10/4,NY Yankees,Baltimore
+2015/10/4,Boston,Cleveland
+2015/10/4,LA Angels,Texas
+2015/10/4,St. Louis,Atlanta
+2015/10/4,Miami,Philadelphia
+2015/10/4,Cincinnati,Pittsburgh
+2015/10/4,Colorado,San Francisco
+2015/10/4,Detroit,Chicago White Sox
+2015/10/4,Chicago Cubs,Milwaukee
+2015/10/4,Kansas City,Minnesota
+2015/10/4,Oakland,Seattle
+2015/10/4,San Diego,LA Dodgers
+2015/10/4,Washington,NY Mets
+2015/10/4,Houston,Arizona
+2015/10/4,Toronto,Tampa Bay
